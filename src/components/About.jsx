@@ -84,6 +84,10 @@ const About = () => {
           </div>
   
         </div> 
+        <div className="w-full px-4 py-5 mx-auto mt-4 max-w-7xl">
+      <h3 className="text-xl font-medium text-gray-700">My Heading Title</h3>
+      <p className="max-w-4xl mt-3 text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque alias id quis hic tempora explicabo provident, iure quae praesentium accusantium laborum ab expedita, veniam error, nemo eius! Officiis, cum reiciendis.</p>
+    </div>
         
 	<div className="container px-4 py-8 mx-auto mt-5 space-y-12 ">
 		<div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
