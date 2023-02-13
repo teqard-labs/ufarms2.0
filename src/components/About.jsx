@@ -6,9 +6,9 @@ import Navbar from './Navbar'
 
 const About = () => {
     return (
-      <div>
+      <div className='bg-gray-100'>
         <Navbar/>
-      <div className="relative w-full px-4 py-8 mx-auto mt-5 bg-white max-w-7xl">
+      <div className="relative w-full px-4 py-8 mx-auto mt-5 max-w-7xl">
         <div className="grid max-w-6xl grid-cols-1 md:grid-cols-2 gap-y-5">
   
           {/* :TITLE CONTAINER */}
