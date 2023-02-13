@@ -5,6 +5,7 @@ import Farms from './components/Farms';
 import Modal from './components/Modal';
 import Carousel from './components/Carousel';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Products from './components/Products';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" >
          <Route path="about" element={<About />} /> 
           <Route path="farms" element={<Farms />} />
+          <Route path="products" element={<Products />} />
           <Route path="modal" element={<Modal />} />
           <Route path="carousel" element={<Carousel />} />
         </Route>
