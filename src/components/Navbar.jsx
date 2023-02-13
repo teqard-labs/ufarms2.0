@@ -15,7 +15,8 @@ const Navbar = () => {
         <Burger isOpen={isOpen} setIsOpen={setIsOpen}/>
         {/* ::Navbar left part */}
         <nav className="flex-wrap items-center hidden text-base tracking-wide md:flex md:justify-start">
-          <NavItem link="#link">Services</NavItem>
+          <NavItem link="#link">Home</NavItem>
+          <NavItem link="#link">Products</NavItem>
           <NavItem link="#link">Farms</NavItem>
         </nav>
         {/* ::Site logo and Name */}
@@ -26,6 +27,7 @@ const Navbar = () => {
         {/* ::Navbar rigth part */}
         <nav className="flex-wrap items-center hidden text-base tracking-wide md:flex md:justify-start">
           <NavItem link="#link">About</NavItem>
+          <NavItem link="#link">Services</NavItem>
           <NavItem link="#link">Contact</NavItem>
         </nav>
         
