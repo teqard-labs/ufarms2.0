@@ -14,3 +14,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@layer utilities {
+  .transform-span-ni2 {
+    transform-origin: 50% 0;
+    transform-style: preserve-3d;
+  }
+  .transform-before-span-ni2 {
+    transform: rotateX(-90deg);
+    transform-origin: 50% 0;
+  }
+  @variants group-hover {
+    .transform-h-span-ni2 {
+      transform: rotateX(90deg);
+      color: transparent;
+    }
+    .transform-h-before-span-ni2 {
+      transform: rotateX(0deg) translateY(-40px);
+    }
+  }
+}
