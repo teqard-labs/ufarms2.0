@@ -3,6 +3,7 @@ import { Disclosure } from "@headlessui/react"
 import { PlusIcon, MinusIcon } from "@heroicons/react/outline"
 import pic from '../assets/about1.jpg'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 const About = () => {
     return (
@@ -123,6 +124,7 @@ const About = () => {
 	</div>
   
       </div>
+      <Footer/>
       </div>
     )
   }
