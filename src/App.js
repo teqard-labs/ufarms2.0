@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import About from './components/About';
 import Farms from './components/Farms';
+import Modal from './components/Modal';
+import Carousel from './components/Carousel';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
         <Route path="/" >
          <Route path="about" element={<About />} /> 
           <Route path="farms" element={<Farms />} />
+          <Route path="modal" element={<Modal />} />
+          <Route path="carousel" element={<Carousel />} />
         </Route>
       </Routes>
     </BrowserRouter>
