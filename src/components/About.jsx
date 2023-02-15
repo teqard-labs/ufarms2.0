@@ -106,12 +106,12 @@ const About = () => {
 			<div className="flex flex-col justify-center flex-1 p-6 ">
 				
 				<h3 className="text-3xl font-bold text-[#028A0F]">Expertise</h3>
-				<p className="my-6 text-black">Our team has a deep understanding of both technology and farming, making us the ideal partner for farmers looking to embrace IoT solutions..</p>
+				<p className="my-6 text-black">Our team has a deep understanding of both technology and farming, making us the ideal partner for farmers looking to embrace IoT solutions.</p>
 				
 			</div>
 		</div>
 		<div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
-			<img src="https://source.unsplash.com/640x480/?3" alt="" className=" h-80 aspect-video" />
+			<img src="https://images.unsplash.com/photo-1659558454388-e31b7d325e06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" className=" h-80 aspect-video" />
 			<div className="flex flex-col justify-center flex-1 p-6 ">
 				<h3 className="text-3xl font-bold text-[#028A0F]">Support</h3>
 				<p className="my-6 text-black">We are dedicated to providing our customers with the best possible support, and are always on hand to answer any questions and offer advice.</p>
