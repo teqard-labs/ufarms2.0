@@ -36,6 +36,8 @@ const Navbar = () => {
       {/* :MOBILE MENU */}
       { isOpen &&
         <div className="flex flex-col w-full px-3 py-4 text-base font-semibold text-center uppercase bg-white md:hidden">
+          <a href="#link" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Home</a>
+          <a href="#link" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Products</a>
           <a href="#link" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">About</a>
           <a href="#link" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Farms</a>
           <a href="#link" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Services</a>
