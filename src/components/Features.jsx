@@ -3,7 +3,7 @@ import React from 'react';
 const Features = () => {
     return (
         <div>
-            <div className="relative mx-auto pt-8 pb-20 px-4 w-full h-screen bg-white">
+            <div className="relative mx-auto pt-8 pb-20 px-4 w-full h-full bg-white">
                 <div className="mx-auto max-w-lg md:max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-x-5 lg:gap-x-10 gap-y-10">
 
                     {/* :TITLE CONTAINER */}

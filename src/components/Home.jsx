@@ -3,6 +3,8 @@ import { Carousel } from "flowbite-react";
 import Navbar from './Navbar';
 import Intro from './Intro';
 import Features from './Features';
+import Footer from './Footer';
+import HowItWorks from './HowItWorks';
 
 const Home = () => {
 
@@ -16,17 +18,6 @@ const Home = () => {
             alt="..."
             
           />
-          {/* <div className="container">
-              <div className=" text-right">
-                <div className="card w-64">
-				  	<div className="card-body">
-				    	<h3 className="card-title">Card title</h3>
-				    	<p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    	
-				  	</div>
-				</div>
-              </div>
-            </div> */}
           <img
             src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
             alt="..."
@@ -49,11 +40,11 @@ const Home = () => {
 
       <Intro />
       <Features />
-
-
+      <HowItWorks/>
+      <Footer />
     </div>
   );
-
+ 
 
 }
 

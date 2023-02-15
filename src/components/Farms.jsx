@@ -1,6 +1,7 @@
 
 import React from 'react'
 import Nav from './Navbar'
+import Modal1 from './Modal'
 
 
 const ProductSuggestion7 = () => {
@@ -98,8 +99,7 @@ const ProductSuggestion7 = () => {
                 <p className="hidden md:block lg:w-2/3 text-xs text-gray-500">{product.description}</p>
                 {/* :::shop now button */}
                 <span className="pt-5 inline-flex items-center text-sm text-gray-700 font-semibold group-hover:text-black group-hover:underline">
-                  <svg className="mr-2 w-3 h-3 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 12l-20 12 5-12-5-12z" /></svg>
-                  Check Now
+                  <Modal1/>
                 </span>
               </div>
               {/* ::Picture */}
