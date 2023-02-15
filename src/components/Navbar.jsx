@@ -2,7 +2,7 @@ import Logo from '../assets/logo.jpg'
 import React, { useState } from 'react'
 import NavItem from './dependables/NavItem'
 import Burger from './dependables/Burger'
-
+import { Outlet, Link } from "react-router-dom";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -15,24 +15,24 @@ const Navbar = () => {
         <Burger isOpen={isOpen} setIsOpen={setIsOpen}/>
         {/* ::Navbar left part */}
         <nav className="flex-wrap items-center hidden text-base tracking-wide md:flex md:justify-start">
-          <NavItem link="#link">Home</NavItem>
-          <NavItem link="#link">Products</NavItem>
-          <NavItem link="#link">Farms</NavItem>
+          <NavItem><Link to="/">Home</Link></NavItem>
+          <NavItem><Link to="/products">Products</Link></NavItem>
+          <NavItem><Link to="/farms">Farms</Link></NavItem>
         </nav>
         {/* ::Site logo and Name */}
-        <a href="#link" className="flex items-center justify-center flex-shrink-0 ml-4 sm:mr-12 md:mb-0">
+        <Link to="/" className="flex items-center justify-center flex-shrink-0 ml-4 sm:mr-12 md:mb-0">
           <img src={Logo} className="w-18 h-14" />
-            
-        </a>
+         
+        </Link>
         {/* ::Navbar rigth part */}
         <nav className="flex-wrap items-center hidden text-base tracking-wide md:flex md:justify-start">
-          <NavItem link="#link">About</NavItem>
-          <NavItem link="#link">Services</NavItem>
-          <NavItem link="#link">Contact</NavItem>
+          <NavItem><Link to="/about">About</Link></NavItem>
+          <NavItem><Link to=" ">Services</Link></NavItem>
+          <NavItem><Link to="/contacts">Contact</Link></NavItem>
         </nav>
-        
+        <Outlet/>
       </div>
-
+      
       {/* :MOBILE MENU */}
       { isOpen &&
         <div className="flex flex-col w-full px-3 py-4 text-base font-semibold text-center uppercase bg-white md:hidden">
