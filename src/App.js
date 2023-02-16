@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Contacts from './components/Contacts';
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Products from './components/Products';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="modal" element={<Modal />} />
           <Route path="carousel" element={<Carousel />} />
           <Route path="contacts" element={<Contacts/>}/>
+          <Route path="services" element={<Services/>}/>
         </Route>
       </Routes>
     </HashRouter>

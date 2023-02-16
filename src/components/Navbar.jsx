@@ -27,7 +27,7 @@ const Navbar = () => {
         {/* ::Navbar rigth part */}
         <nav className="flex-wrap items-center hidden text-base tracking-wide md:flex md:justify-start">
           <NavItem><Link to="/about">About</Link></NavItem>
-          <NavItem><Link to=" ">Services</Link></NavItem>
+          <NavItem><Link to="/services ">Services</Link></NavItem>
           <NavItem><Link to="/contacts">Contact</Link></NavItem>
         </nav>
         <Outlet/>
@@ -40,7 +40,7 @@ const Navbar = () => {
           <Link to="/products" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Products</Link>
           <Link to="/about" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">About</Link>
           <Link to="/farms" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Farms</Link>
-          <Link to=" " className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Services</Link>
+          <Link to="/services " className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Services</Link>
           <Link to="/contacts" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Contact</Link>
         </div>
       }

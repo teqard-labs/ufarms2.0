@@ -3,7 +3,6 @@ import React from 'react'
 import Nav from './Navbar'
 import Modal1 from './Modal'
 
-
 const ProductSuggestion7 = () => {
 
   const products = [
@@ -14,7 +13,7 @@ const ProductSuggestion7 = () => {
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       badge: "Tomato !",
       badgeClass: "text-orange-500",
-      picture: "https://assets.weforum.org/article/image/responsive_big_webp_WxZnPfCh3elRtPyzhRY9XyAi6L9J8DKPjYq_-FUVEtA.webp",
+      picture: "../assets/1.jpeg", 
     },
     {
       id: 2,
@@ -103,7 +102,7 @@ const ProductSuggestion7 = () => {
                 </span>
               </div>
               {/* ::Picture */}
-              <img src={product.picture} alt="" className="absolute top-1/2 right-1/3 h-4/5 opacity-25 md:opacity-50 lg:opacity-100 transform -translate-y-1/2 group-hover:scale-110" />
+              <img src={product.picture} alt="" className="absolute top-1/2 right-[10vw] h-4/5 opacity-100 md:opacity-20 lg:opacity-100 transform -translate-y-1/2 group-hover:scale-110" />
             </a>
           ))
           }
