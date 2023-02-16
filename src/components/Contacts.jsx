@@ -2,6 +2,8 @@ import React from 'react';
 import { useRef } from 'react';
 import { ClockIcon, LocationMarkerIcon, MailIcon, PhoneIcon } from '@heroicons/react/solid'
 import InputEffect1 from './InputEffect1'
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 
 
@@ -18,20 +20,23 @@ const Contacts = () => {
   }
 
  return (
+  <div>
+    <Navbar/>
+
    <div className="relative mx-auto w-full max-w-7xl bg-white text-gray-700">
      
      {/* :HEADER */}
      <div className="relative pt-20 md:pt-40 pb-32 px-4 flex justify-center items-center">
 
        {/* ::Background Image */}
-       <img src="https://fancytailwind.com/static/air-balloons1-39d41bd23b1d6846f3e87e12837b1e6c.jpg" alt="" className="absolute inset-0 w-full h-full object-cover" />
+       <img src="https://www.thespruce.com/thmb/A4B7gXN_1nRYH9ARAF0TnAD3iwo=/2122x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-165831199-56d751df3df78cfb37da972c.jpg" alt="" className="absolute inset-0 w-full h-full object-cover" />
 
        {/* ::Inner Container */}
        <div className="relative text-center">
          {/* :::title contact */}
          <h2 className="text-6xl md:text-8xl text-white font-serif tracking-wider" style={{ textShadow: "1px 1px 2px #7d7d7d" }}>Contact</h2>
          {/* :::sub text */}
-         <p className="text-xl text-white text-opacity-75 font-semibold">let's meet together</p>
+         <p className="text-xl text-white text-opacity-75 font-semibold"></p>
        </div>
 
      </div>
@@ -56,13 +61,13 @@ const Contacts = () => {
            <div className="grid grid-cols-2 gap-y-8 gap-x-4">
              {/* ::::address */}
              <div className="col-span-1 flex flex-col space-y-1">
-               <LocationMarkerIcon className="w-8 h-8 text-teal-400" />
+               <LocationMarkerIcon className="w-8 h-8 text-green-400" />
                <h4 className="text-sm text-gray-500 font-bold uppercase">Address</h4>
                <p className="text-xs lg:text-sm text-gray-500">18 Avenue des Champs-Élysées, <br /> 75008 Paris <br /> France</p>
              </div>
              {/* ::::opening hours */}
              <div className="col-span-1 flex flex-col space-y-1">
-               <ClockIcon className="w-8 h-8 text-teal-400" />
+               <ClockIcon className="w-8 h-8 text-green-400" />
                <h4 className="text-sm text-gray-500 font-bold uppercase">Opening hours</h4>
                <ul className="text-xs lg:text-sm text-gray-500">
                  <li>Monday to Friday: 10am to 7pm</li>
@@ -72,13 +77,13 @@ const Contacts = () => {
              </div>
              {/* ::::email contact */}
              <div className="col-span-1 flex flex-col space-y-1">
-               <MailIcon className="w-8 h-8 text-teal-400" />
+               <MailIcon className="w-8 h-8 text-green-400" />
                <h4 className="text-sm text-gray-500 font-bold uppercase">Email</h4>
                <a href="mailto:#" className="text-xs lg:text-sm text-gray-500 hover:text-gray-700">contact-support@fancymail.com</a>
              </div>
              {/* ::::phone contact */}
              <div className="col-span-1 flex flex-col space-y-1">
-               <PhoneIcon className="w-8 h-8 text-teal-400" />
+               <PhoneIcon className="w-8 h-8 text-green-400" />
                <h4 className="text-sm text-gray-500 font-bold uppercase">Phone</h4>
                <p className="text-xs lg:text-sm text-gray-500">Call customer services at: <br /> XXX-XXXX-XXXX</p>
              </div>
@@ -91,7 +96,7 @@ const Contacts = () => {
              {/* :::Title container */}
              <div className="mx-auto max-w-xs text-center">
                {/* ::::title drop us a line */}
-               <h3 className="text-3xl text-teal-400 font-serif">Drop us a line</h3>
+               <h3 className="text-3xl text-green-500 font-serif">Drop us a line</h3>
                {/* ::::some text */}
                <p className="text-sm text-gray-500">Please feel free to contact us if you have any further questions or concerns</p>
              </div>
@@ -105,11 +110,11 @@ const Contacts = () => {
                <div className="pt-2 space-y-2 text-sm">
                  <label htmlFor="message" className="relative left-3 text-gray-300">Your Message</label>
                  <textarea ref={messageRef} name="message" id="message" cols="30" rows="3" 
-                   className="form-textarea resize-none w-full shadow-sm border-0 border-t-2 border-gray-300 bg-transparent focus:border-transparent focus:ring-1 focus:ring-teal-400"
+                   className="form-textarea resize-none w-full shadow-sm border-0 border-t-2 border-gray-300 bg-transparent focus:border-transparent focus:ring-1 focus:ring-teal-500"
                  ></textarea>
                </div>
                {/* ::::send message button */}
-               <button className="mx-auto py-2 px-4 w-40 rounded-full bg-teal-500 text-sm text-white font-semibold tracking-wide hover:bg-teal-400">Send message!</button>
+               <button className="mx-auto py-2 px-4 w-40 rounded-full bg-green-500 text-sm text-white font-semibold tracking-wide hover:bg-green-400">Send message!</button>
              </form>
            </div>
          </div>
@@ -117,7 +122,9 @@ const Contacts = () => {
        </div>
      </div>
 
-   </div> 
+   </div>
+  <Footer></Footer>
+  </div>
     );
 }
 
