@@ -61,13 +61,13 @@ const Contacts = () => {
            <div className="grid grid-cols-2 gap-y-8 gap-x-4">
              {/* ::::address */}
              <div className="col-span-1 flex flex-col space-y-1">
-               <LocationMarkerIcon className="w-8 h-8 text-green-400" />
+               <LocationMarkerIcon className="w-8 h-8 text-[#028A0F]" />
                <h4 className="text-sm text-gray-500 font-bold uppercase">Address</h4>
                <p className="text-xs lg:text-sm text-gray-500">18 Avenue des Champs-Élysées, <br /> 75008 Paris <br /> France</p>
              </div>
              {/* ::::opening hours */}
              <div className="col-span-1 flex flex-col space-y-1">
-               <ClockIcon className="w-8 h-8 text-green-400" />
+               <ClockIcon className="w-8 h-8 text-[#028A0F]" />
                <h4 className="text-sm text-gray-500 font-bold uppercase">Opening hours</h4>
                <ul className="text-xs lg:text-sm text-gray-500">
                  <li>Monday to Friday: 10am to 7pm</li>
@@ -77,13 +77,13 @@ const Contacts = () => {
              </div>
              {/* ::::email contact */}
              <div className="col-span-1 flex flex-col space-y-1">
-               <MailIcon className="w-8 h-8 text-green-400" />
+               <MailIcon className="w-8 h-8 text-[#028A0F]" />
                <h4 className="text-sm text-gray-500 font-bold uppercase">Email</h4>
                <a href="mailto:#" className="text-xs lg:text-sm text-gray-500 hover:text-gray-700">contact-support@fancymail.com</a>
              </div>
              {/* ::::phone contact */}
              <div className="col-span-1 flex flex-col space-y-1">
-               <PhoneIcon className="w-8 h-8 text-green-400" />
+               <PhoneIcon className="w-8 h-8 text-[#028A0F]" />
                <h4 className="text-sm text-gray-500 font-bold uppercase">Phone</h4>
                <p className="text-xs lg:text-sm text-gray-500">Call customer services at: <br /> XXX-XXXX-XXXX</p>
              </div>
@@ -96,7 +96,7 @@ const Contacts = () => {
              {/* :::Title container */}
              <div className="mx-auto max-w-xs text-center">
                {/* ::::title drop us a line */}
-               <h3 className="text-3xl text-green-500 font-serif">Drop us a line</h3>
+               <h3 className="text-3xl text-[#028A0F] font-serif">Drop us a line</h3>
                {/* ::::some text */}
                <p className="text-sm text-gray-500">Please feel free to contact us if you have any further questions or concerns</p>
              </div>
@@ -114,7 +114,7 @@ const Contacts = () => {
                  ></textarea>
                </div>
                {/* ::::send message button */}
-               <button className="mx-auto py-2 px-4 w-40 rounded-full bg-green-500 text-sm text-white font-semibold tracking-wide hover:bg-green-400">Send message!</button>
+               <button className="mx-auto py-2 px-4 w-40 rounded-full bg-[#028A0F] text-sm text-white font-semibold tracking-wide hover:bg-[#03AC13]">Send message!</button>
              </form>
            </div>
          </div>
