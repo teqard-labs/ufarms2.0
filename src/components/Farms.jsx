@@ -2,6 +2,12 @@
 import React from 'react'
 import Nav from './Navbar'
 import Modal1 from './Modal'
+import P1 from '../assets/1.jpeg'
+import P2 from '../assets/2.jpg'
+import P3 from '../assets/3.jpg'
+import P4 from '../assets/4.jpg'
+import P6 from '../assets/6.jpg'
+import P7 from '../assets/7.jpg'
 
 const ProductSuggestion7 = () => {
 
@@ -13,7 +19,7 @@ const ProductSuggestion7 = () => {
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       badge: "Tomato !",
       badgeClass: "text-orange-500",
-      picture: "../assets/1.jpeg", 
+      picture: P1, 
     },
     {
       id: 2,
@@ -22,7 +28,7 @@ const ProductSuggestion7 = () => {
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       badge: "Radish !",
       badgeClass: "text-lime-500",
-      picture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXzDfCpeQgBLAlX1w2iNrr5Ll0bNWRcMYpYA&usqp=CAU",
+      picture: P2,
     },
     {
       id: 3,
@@ -31,7 +37,7 @@ const ProductSuggestion7 = () => {
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       badge: "Cucumbar !",
       badgeClass: "text-purple-500",
-      picture: "https://c2.staticflickr.com/2/1779/42225728250_16df0bbcac_z.jpg ",
+      picture: P3,
     },
     {
       id: 4,
@@ -40,7 +46,7 @@ const ProductSuggestion7 = () => {
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       badge: "Carrot !",
       badgeClass: "text-purple-500",
-      picture: "https://c2.staticflickr.com/2/1779/42225728250_16df0bbcac_z.jpg ",
+      picture: P4,
     },
     {
       id: 5,
@@ -49,7 +55,7 @@ const ProductSuggestion7 = () => {
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       badge: "Pumpkin !",
       badgeClass: "text-purple-500",
-      picture: "https://c2.staticflickr.com/2/1779/42225728250_16df0bbcac_z.jpg ",
+      picture: P6,
     },
     {
       id: 6,
@@ -58,7 +64,7 @@ const ProductSuggestion7 = () => {
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       badge: "Cabbage !",
       badgeClass: "text-purple-500",
-      picture: "https://c2.staticflickr.com/2/1779/42225728250_16df0bbcac_z.jpg ",
+      picture: P7,
     },
   ]
 
