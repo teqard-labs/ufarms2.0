@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { Outlet, Link } from "react-router-dom";
 import NavItem from './dependables/NavItem'
 
 const Footer = () => {
@@ -11,15 +12,15 @@ const Footer = () => {
         {/* :NAVIGATION */}
         <nav className="flex flex-wrap justify-center pb-4 list-none">
           <ul className="flex flex-wrap justify-center list-none">
-            <li><NavItem link="#link">Products</NavItem></li>
-            <li><NavItem link="#link">Services</NavItem></li>
-            <li><NavItem link="#link">Contact</NavItem></li>
-            <li><NavItem link="#link">About</NavItem></li>
-            <li><NavItem link="#link">Farms</NavItem></li>
-            <li><NavItem link="#link">Home</NavItem></li>
+            <li><NavItem><Link to="/products">Products</Link></NavItem></li>
+            <li><NavItem><Link to=" ">Services</Link></NavItem></li>
+            <li><NavItem><Link to="/contacts">Contact</Link></NavItem></li>
+            <li><NavItem><Link to="/about">About</Link></NavItem></li>
+            <li><NavItem><Link to="/farms">Farms</Link></NavItem></li>
+            <li><NavItem><Link to="/">Home</Link></NavItem></li>
           </ul>
         </nav>
-
+<Outlet/>
         {/* :SOCIAL NETWORKS */}
         <div className="flex py-4">
           {/* ::Facebook */}
