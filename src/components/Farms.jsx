@@ -66,44 +66,42 @@ const ProductSuggestion7 = () => {
   return (
 
 
-    <div className="relative mx-auto w-full bg-white">
+    <div className="relative w-full mx-auto bg-white">
       <Nav />
 
 
-      <div className="mx-auto max-w-sm sm:max-w-2xl md:max-w-none py-5 px-4 w-full">
+      <div className="w-full max-w-sm px-4 py-8 mx-auto mt-5 sm:max-w-2xl md:max-w-none">
 
         {/* :TITLE */}
-        <div className="flex items-center justify-center">
-          <span className="mr-3 w-40 h-0.5 bg-gray-400" />
-          <h2 className="text-xl md:text-3xl text-gray-700 font-bold font-oswald uppercase tracking-wider whitespace-nowrap">Farms </h2>
-          <span className="ml-3 w-40 h-0.5 bg-gray-400" />
+        <div className="mx-auto ml-6 ">
+          <h2 className="text-xl font-bold tracking-normal text-gray-700 uppercase md:text-3xl font-oswald ">Farms </h2>
         </div>
 
       
 
 
         {/* :PRODUCT SUGGESTION */}
-        <div className="mt-20 grid grid-cols-1 sm:grid-cols-2">
+        <div className="grid grid-cols-1 mt-20 sm:grid-cols-2">
 
           
 
           {products.map((product, index) => (
-            <a key={product.id} className={`col-span-1 group relative py-3 pl-4 sm:pl-8 pr-4 ${index !== 0 && "border-t-2 sm:border-t-0 sm:border-l-2 border-gray-200"} bg-white overflow-hidden`}>
+            <a key={product.id} className={`col-span-1 group relative py-1 pl-4 sm:pl-8 pr-4  bg-white overflow-hidden`}>
               {/* ::Details */}
               <div className="relative z-10 flex flex-col items-start space-y-1">
                 {/* :::badges */}
                 <span className={`text-sm ${product.badgeClass} font-bold uppercase tracking-wide`}>{product.badge}</span>
                 {/* :::name */}
-                <h3 className="text-base lg:text-lg text-gray-500 font-semibold">{product.name}</h3>
+                <h3 className="text-base font-semibold text-gray-500 lg:text-lg">{product.name}</h3>
                 {/* :::description */}
-                <p className="hidden md:block lg:w-2/3 text-xs text-gray-500">{product.description}</p>
+                <p className="hidden text-xs text-gray-500 md:block lg:w-2/3">{product.description}</p>
                 {/* :::shop now button */}
-                <span className="pt-5 inline-flex items-center text-sm text-gray-700 font-semibold group-hover:text-black group-hover:underline">
+                <span className="inline-flex items-center pt-5 text-sm font-semibold text-gray-700 group-hover:text-black">
                   <Modal1/>
                 </span>
               </div>
               {/* ::Picture */}
-              <img src={product.picture} alt="" className="absolute top-1/2 right-1/3 h-4/5 opacity-25 md:opacity-50 lg:opacity-100 transform -translate-y-1/2 group-hover:scale-110" />
+              <img src={product.picture} alt="" className="absolute w-1/4 transform -translate-y-1/2 opacity-25 top-1/2 right-1/3 h-4/5 md:opacity-50 lg:opacity-100 group-hover:scale-110" />
             </a>
           ))
           }
