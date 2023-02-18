@@ -5,7 +5,7 @@ import Modal1 from './Modal'
 import Footer from './Footer'
 
 
-const ProductSuggestion7 = () => {
+const Farms = () => {
 
   const products = [
     {
@@ -115,4 +115,4 @@ const ProductSuggestion7 = () => {
   )
 }
 
-export default ProductSuggestion7
+export default Farms
