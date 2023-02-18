@@ -2,6 +2,7 @@
 import React from 'react'
 import Nav from './Navbar'
 import Modal1 from './Modal'
+import Footer from './Footer'
 
 
 const ProductSuggestion7 = () => {
@@ -109,6 +110,7 @@ const ProductSuggestion7 = () => {
 
 
       </div>
+      <Footer/>
     </div>
   )
 }
