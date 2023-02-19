@@ -1,14 +1,20 @@
 {
   "files": {
-    "main.css": "/ufarms2.0/static/css/main.a5389bd1.css",
-    "main.js": "/ufarms2.0/static/js/main.f7b284ef.js",
+    "main.css": "/ufarms2.0/static/css/main.ec878d79.css",
+    "main.js": "/ufarms2.0/static/js/main.d1162a43.js",
     "static/js/27.38dded09.chunk.js": "/ufarms2.0/static/js/27.38dded09.chunk.js",
+    "static/media/6.jpg": "/ufarms2.0/static/media/6.8300bbef116a354860aa.jpg",
+    "static/media/7.jpg": "/ufarms2.0/static/media/7.b9556ba181cdb010af91.jpg",
+    "static/media/4.jpg": "/ufarms2.0/static/media/4.fdf3eaf70952cd42065b.jpg",
     "static/media/about1.jpg": "/ufarms2.0/static/media/about1.04cf9c0ab792a28fdeba.jpg",
+    "static/media/1.jpeg": "/ufarms2.0/static/media/1.8ea94268d1aba2f95f1e.jpeg",
+    "static/media/3.jpg": "/ufarms2.0/static/media/3.93f0d93b0da63240ab2a.jpg",
+    "static/media/2.jpg": "/ufarms2.0/static/media/2.154967470a533e74d054.jpg",
     "static/media/logo.jpg": "/ufarms2.0/static/media/logo.6514cc6efc941de3b480.jpg",
     "index.html": "/ufarms2.0/index.html"
   },
   "entrypoints": [
-    "static/css/main.a5389bd1.css",
-    "static/js/main.f7b284ef.js"
+    "static/css/main.ec878d79.css",
+    "static/js/main.d1162a43.js"
   ]
 }
