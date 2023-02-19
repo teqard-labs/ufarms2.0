@@ -1,81 +1,61 @@
-import React from 'react';
+
+import React from 'react'
+import { CheckCircleIcon } from "@heroicons/react/solid"
+
 
 const Features = () => {
-    return (
-        <div>
-            <div className="relative mx-auto pt-8 pb-20 px-4 w-full h-full bg-white">
-                <div className="mx-auto max-w-lg md:max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-x-5 lg:gap-x-10 gap-y-10">
 
-                    {/* :TITLE CONTAINER */}
-                    <div className="col-span-full mx-auto max-w-xl text-center">
-                        <h2 className="text-base text-gray-500 font-bold uppercase tracking-wide">Features</h2>
-                        <p className="mt-2 text-2xl sm:text-4xl text-gray-700 font-extrabold capitalize tracking-wide">Our Features</p>
-                    </div>
+  const data = [
+    { id: 1, name: "Feature 1", icon: CheckCircleIcon, description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam excepturi, doloribus totam quo, unde magni atque officiis at cupiditate." },
+    { id: 2, name: "Feature 2", icon: CheckCircleIcon, description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam excepturi, doloribus totam quo, unde magni atque officiis at cupiditate." },
+    { id: 3, name: "Feature 3", icon: CheckCircleIcon, description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam excepturi, doloribus totam quo, unde magni atque officiis at cupiditate." },
+    { id: 4, name: "Feature 4", icon: CheckCircleIcon, description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam excepturi, doloribus totam quo, unde magni atque officiis at cupiditate." },
+    { id: 5, name: "Feature 5", icon: CheckCircleIcon, description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam excepturi, doloribus totam quo, unde magni atque officiis at cupiditate." },
+    { id: 6, name: "Feature 6", icon: CheckCircleIcon, description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam excepturi, doloribus totam quo, unde magni atque officiis at cupiditate." },
 
 
-                    {/* :FEATURE 1 */}
-                    <div className="col-span-1 relative p-5 w-full h-full flex flex-col">
-                        {/* ::Background Image */}
-                        <div className="absolute inset-0 w-full h-full">
-                            {/* Image goes here */}
-                            {/* <img src={image} alt="" className="w-full h-full object-cover" /> */}
-                            {/* :::overlay */}
-                            <div className="absolute inset-0 w-full h-[40vh] bg-gray-800 opacity-80" />
-                        </div>
-                        {/* ::Name */}
-                        <p className="relative text-center text-lg text-white font-bold tracking-wide">Feature Name 1</p>
-                        {/* ::Content */}
-                        <div className="relative top-0 md:top-20 mt-32 md:p-4 flex justify-center items-center shadow border border-gray-100 bg-gray-50">
-                            {/* Content goes here */}
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet debitis cupiditate nobis itaque eos dolor molestias ut reiciendis illo accusamus. Fuga harum perferendis sapiente non alias reiciendis sunt quam est.
+]
 
-                        </div>
-                    </div>
+  return (
+    <div className="relative mx-auto py-8 px-4 w-full max-w-7xl bg-white overflow-hidden">
+      <div className="mx-auto max-w-sm sm:max-w-2xl lg:max-w-6xl flex flex-col lg:flex-row items-center">
 
-
-                    {/* :FEATURE 2 */}
-                    <div className="col-span-1 relative p-5 w-full h-full flex flex-col">
-                        {/* ::Background Image */}
-                        <div className="absolute inset-0 w-full h-full">
-                            {/* Image goes here */}
-                            {/* <img src={image} alt="" className="w-full h-full object-cover" /> */}
-                            {/* :::overlay */}
-                            <div className="absolute inset-0 w-full h-[40vh] bg-gray-800 opacity-80" />
-                        </div>
-                        {/* ::Name */}
-                        <p className="relative text-center text-lg text-white font-bold tracking-wide">Feature Name 2</p>
-                        {/* ::Content */}
-                        <div className="relative top-0 md:top-20 mt-32 md:p-4 w-full flex justify-center items-center shadow border border-gray-100 bg-gray-50">
-                            {/* Content goes here */}
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam assumenda, iure voluptate odio modi vero corrupti dolorem sequi beatae. Minus molestias animi provident molestiae ex pariatur modi fuga enim quidem.
-
-                        </div>
-                    </div>
-
-
-                    {/* :FEATURE 3 */}
-                    <div className="col-span-1 relative p-5 w-full h-full flex flex-col">
-                        {/* ::Background Image */}
-                        <div className="absolute inset-0 w-full h-full">
-                            {/* Image goes here */}
-                            {/* <img src={image} alt="" className="w-full h-full object-cover" /> */}
-                            {/* :::overlay */}
-                            <div className="absolute inset-0 w-full h-[40vh] bg-gray-800 opacity-80" />
-                        </div>
-                        {/* ::Name */}
-                        <p className="relative text-center text-lg text-white font-bold tracking-wide">Feature Name 3</p>
-                        {/* ::Content */}
-                        <div className="relative top-0 md:top-20 mt-32 md:p-4 flex justify-center items-center shadow border border-gray-100 bg-gray-50">
-                            {/* Content goes here */}
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci dolorem atque quo delectus consequuntur asperiores aspernatur nemo, deleniti explicabo quaerat quisquam, quam repellendus ex, hic eaque quos eveniet reprehenderit perspiciatis!
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+        {/* :TITLE CONTAINER */}
+        <div className="mx-auto w-full lg:max-w-md">
+          <h2 className="text-base text-gray-500 font-bold uppercase tracking-wide">Features</h2>
+          <p className="mt-2 text-2xl sm:text-4xl text-gray-700 font-extrabold capitalize tracking-wide">Our Features</p>
+          <div className="mt-5 text-sm text-gray-500">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus, voluptas dolorem quas odit fuga tempora a voluptatum, consectetur distinctio, provident necessitatibus nobis voluptatem alias modi temporibus commodi aliquid esse?
+            
+          </div>
+          <button className="mt-6 py-1.5 px-4 inline-block shadow-sm rounded border border-gray-700 bg-white text-sm text-gray-700 font-semibold uppercase tracking-wider hover:bg-[#03AC13] hover:text-white">Explore</button>
         </div>
-    );
+
+
+        {/* :FEATURES CONTAINER */}
+        <div className="relative mt-8 lg:mt-0 lg:ml-16 grid grid-cols-1 sm:grid-cols-3 gap-5">
+          {data.map((item, index) => {
+            const Icon = item.icon
+            return (
+            <div key={item.id} className={`col-span-1 p-5 flex flex-col items-start space-y-2 shadow rounded-md ${index === 0 || index === 2 || index === 4 || index === 6 ? "bg-[#028A0F] text-white" : "bg-gray-100 text-gray-700"}`}>
+              {/* ::Icon */}
+              <span>
+                {/* Icon goes here */}
+                <Icon className="w-16 h-16" />
+              </span>
+              {/* ::Name */}
+              <span className="text-lg font-bold">{item.name}</span>
+              {/* ::Description */}
+              <p className={`text-sm text-gray-500 font-normal ${index === 0 || index === 2 || index === 4 || index === 6 ? " text-white" : " text-gray-700"}`}>{item.description}</p>
+            </div>
+          )})
+          }
+        </div>
+
+
+      </div>
+    </div>
+  )
 }
 
-export default Features;
+export default Features

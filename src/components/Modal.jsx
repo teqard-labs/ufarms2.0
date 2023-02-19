@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Button, Modal,Carousel } from 'flowbite-react';
-import F1 from '../assets/about1.jpg';
 
 const Modal1=()=> {
   const [showModal, setShowModal] = useState(false);

@@ -7,17 +7,20 @@ import Footer from './Footer';
 import HowItWorks from './HowItWorks';
 
 const Home = () => {
+  
 
   return (
     <div>
       <Navbar />
-      <div className="w-full h-[50vh] md:h-[86vh]">
+      <div className="w-full h-[50vh] md:h-[86vh] ">
         <Carousel>
+          
           <img
             src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
             alt="..."
-            
           />
+         
+      
           <img
             src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
             alt="..."

@@ -16,7 +16,7 @@ const HowItWorks = () => {
 
 
                     {/* :WATCH DEMO */}
-                    <div className="relative mt-8 mx-auto aspect-w-5 aspect-h-3 md:aspect-h-2 w-full max-h-[20vh] md:max-h-[70vh] h-full  md:max-w-[60vw] flex justify-center items-center bg-gray-400 overflow-hidden">
+                    <div className="relative mt-8 mx-auto aspect-w-5 aspect-h-3 md:aspect-h-2 w-full max-h-[20vh] md:max-h-[77vh] h-full  md:max-w-[60vw] flex justify-center items-center bg-gray-400 overflow-hidden">
                         {/* iframe goes here */}
 
                         <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'

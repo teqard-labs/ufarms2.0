@@ -7,7 +7,7 @@ import P2 from '../assets/2.jpg'
 import P3 from '../assets/3.jpg'
 import P4 from '../assets/4.jpg'
 import P6 from '../assets/6.jpg'
-import P7 from '../assets/7.jpg'
+import P7 from '../assets/7.jpeg'
 import Footer from './Footer'
 
 
@@ -16,7 +16,7 @@ const Farms = () => {
   const products = [
     {
       id: 1,
-      href: "#link",
+   
       name: "Farm 1",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       badge: "Tomato !",
@@ -25,7 +25,7 @@ const Farms = () => {
     },
     {
       id: 2,
-      href: "#link",
+   
       name: "Farm 2",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       badge: "Radish !",
@@ -34,7 +34,7 @@ const Farms = () => {
     },
     {
       id: 3,
-      href: "#link",
+  
       name: "Farm 3",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       badge: "Cucumbar !",
@@ -43,7 +43,7 @@ const Farms = () => {
     },
     {
       id: 4,
-      href: "#link",
+   
       name: "Farm 4",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       badge: "Carrot !",
@@ -52,7 +52,7 @@ const Farms = () => {
     },
     {
       id: 5,
-      href: "#link",
+
       name: "Farm 5",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       badge: "Pumpkin !",
@@ -61,7 +61,7 @@ const Farms = () => {
     },
     {
       id: 6,
-      href: "#link",
+ 
       name: "Farm 6",
       description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
       badge: "Cabbage !",
@@ -77,7 +77,7 @@ const Farms = () => {
       <Nav />
 
 
-      <div className="w-full max-w-sm px-4 py-8 mx-auto mt-5 sm:max-w-2xl md:max-w-none">
+      <div className="w-full max-w-2xl px-4 py-8 mx-auto mt-5 md:max-w-none">
 
         {/* :TITLE */}
         <div className="mx-auto ml-6 ">
@@ -93,7 +93,7 @@ const Farms = () => {
           
 
           {products.map((product, index) => (
-            <a key={product.id} className={`col-span-1 group relative py-1 pl-4 sm:pl-8 pr-4  bg-white overflow-hidden`}>
+            <a key={product.id} className={`col-span-1 group relative py-1 mb-6 pl-4 sm:pl-8 pr-4 mr-4 bg-white`}>
               {/* ::Details */}
               <div className="relative z-10 flex flex-col items-start space-y-1">
                 {/* :::badges */}
@@ -108,7 +108,8 @@ const Farms = () => {
                 </span>
               </div>
               {/* ::Picture */}
-              <img src={product.picture} alt="" className="absolute top-1/2 right-[10vw] h-4/5 opacity-100 md:opacity-20 lg:opacity-100 transform -translate-y-1/2 group-hover:scale-110" />
+              <img src={product.picture} alt="" className="absolute -top-4 md:right-10 right-0 md:h-[23vh] md:max-lg:h-[20vh] max-h-[20vh] md:max-lg:right-0 md:w-[15vw] w-[45vw] h-[20vh] opacity-100  lg:opacity-100 group-hover:scale-110" />   
+              <div className='border-2 w-5/6 ml-5 mt-10'/>
             </a>
           ))
           }
