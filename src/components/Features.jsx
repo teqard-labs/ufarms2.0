@@ -28,7 +28,7 @@ const Features = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusamus, voluptas dolorem quas odit fuga tempora a voluptatum, consectetur distinctio, provident necessitatibus nobis voluptatem alias modi temporibus commodi aliquid esse?
             
           </div>
-          <button className="mt-6 py-1.5 px-4 inline-block shadow-sm rounded border border-gray-700 bg-white text-sm text-gray-700 font-semibold uppercase tracking-wider hover:bg-[#03AC13] hover:text-white">Explore</button>
+          <button className="mt-6 py-1.5 px-4 inline-block shadow-sm rounded border border-gray-700 bg-gradient-to-r from-[#caf880] to-[#70cf7d] text-sm text-gray-700 font-semibold uppercase tracking-wider hover:from-[#7adcb4] hover:to-[#00d082] hover:text-white">Explore</button>
         </div>
 
 

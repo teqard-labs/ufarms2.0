@@ -91,7 +91,7 @@ const Products = () => {
                       {/* ::::colors description */}
                       <p className="mt-1 text-sm font-medium text-gray-500">{product.description}</p>
                       {/* ::::add to cart button */}
-                      <button className="mt-4 py-1.5 w-full rounded-md bg-[#028A0F] text-sm text-white font-semibold tracking-wide hover:bg-gray-100 hover:text-black">Add to bag</button>
+                      <button className="mt-4 py-1.5 w-full rounded-md bg-gradient-to-r from-[#caf880] to-[#70cf7d] text-sm text-white font-semibold tracking-wide hover:from-gray-100 hover:to-white hover:text-black">Add to bag</button>
                     </div>
                   </div>
                 </a>

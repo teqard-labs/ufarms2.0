@@ -15,7 +15,7 @@ const Intro = () => {
                         {/* Content goes here */}
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos culpa enim vel porro commodi rerum tempora dolorem. Vero, et minus! Harum minus alias, commodi repudiandae tenetur molestias at cum optio.
                         {/* ::Button */}
-                        <button type="button" className="mt-3 relative inline-flex items-center px-5 py-2.5 rounded border border-gray-700 bg-white  text-base text-gray-700 font-semibold hover:bg-[#03AC13] hover:text-white">
+                        <button type="button" className="mt-3 relative inline-flex items-center px-5 py-2.5 rounded border border-gray-700 bg-gradient-to-r from-[#caf880] to-[#70cf7d] text-base text-gray-700 font-semibold hover:from-[#7adcb4] hover:to-[#00d082] hover:text-white">
                             Know More
                         </button>
                     </div>

@@ -16,7 +16,7 @@ const Modal1=()=> {
 
   return (
     <>
-      <Button onClick={handleOpenModal} className="bg-green-700 hover:bg-green-900">Know More</Button>
+      <Button onClick={handleOpenModal} className="bg-gradient-to-r from-[#caf880] to-[#70cf7d] hover:from-[#7adcb4] hover:to-[#00d082]">Know More</Button>
       <Modal show={showModal} onClose={handleCloseModal} className="bg-green-700">
         <Modal.Header>Image Carousel</Modal.Header>
         <Modal.Body>
