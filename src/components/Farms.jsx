@@ -108,8 +108,8 @@ const Farms = () => {
                 </span>
               </div>
               {/* ::Picture */}
-              <img src={product.picture} alt="" className="absolute -top-4 md:right-10 right-0 md:h-[23vh] md:max-lg:h-[20vh] max-h-[20vh] md:max-lg:right-0 md:w-[15vw] w-[45vw] h-[20vh] opacity-100  lg:opacity-100 group-hover:scale-110" />   
-              <div className='border-2 w-5/6 ml-5 mt-10'/>
+              <img src={product.picture} alt="" className="absolute -top-4 md:right-10 right-0 md:h-[23vh] md:max-lg:h-[20vh] max-h-[20vh] md:max-lg:right-0 md:w-[15vw] w-[40vw] h-[17vh] opacity-100  lg:opacity-100 group-hover:scale-110" />   
+              <div className='border-2 w-full ml-5 mt-10'/>
             </a>
           ))
           }
