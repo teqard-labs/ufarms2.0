@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Button, Modal,Carousel } from 'flowbite-react';
+import {  Modal,Carousel } from 'flowbite-react';
 
 const Modal1=()=> {
   const [showModal, setShowModal] = useState(false);
@@ -16,9 +16,11 @@ const Modal1=()=> {
 
   return (
     <>
-      <Button onClick={handleOpenModal} className="bg-gradient-to-r from-[#caf880] to-[#70cf7d] hover:from-[#7adcb4] hover:to-[#00d082]">Know More</Button>
-      <Modal show={showModal} onClose={handleCloseModal} className="bg-green-700">
-        <Modal.Header>Image Carousel</Modal.Header>
+       <button type="button" onClick={handleOpenModal} className="relative inline-flex items-center px-3 py-2 text-base font-normal text-white bg-gradient-to-r from-[#caf880] to-[#70cf7d] hover:from-[#028A0F] hover:to-[#028A0F] border-2 border-[#028A0F] rounded">
+          Know More
+        </button>
+      <Modal show={showModal} onClose={handleCloseModal} className="bg-green-700 ">
+        <Modal.Header className="mt-5">Details</Modal.Header>
         <Modal.Body>
         <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
         <Carousel>
@@ -54,7 +56,7 @@ const Modal1=()=> {
             </div>
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={handleCloseModal} className="bg-green-700 hover:bg-green-900">Close</Button>
+          <button onClick={handleCloseModal} className="relative inline-flex items-center px-5 py-2 text-base font-semibold text-white bg-gradient-to-r from-[#caf880] to-[#70cf7d] hover:from-[#028A0F] hover:to-[#028A0F] border-2 border-[#028A0F] rounded">Close</button>
         </Modal.Footer>
       </Modal>
     </>
