@@ -27,9 +27,9 @@ useEffect(() => {
         <Burger isOpen={isOpen} setIsOpen={setIsOpen}/>
         {/* ::Navbar left part */}
         <nav className="flex-wrap items-center hidden text-base tracking-wide md:flex md:justify-start">
-          <NavItem className='flex flex-col'><FaHome size={20} className='mt-1 ml-[0.7vw]' /><Link to="/">Home</Link></NavItem>
-          <NavItem className='flex flex-col'><FaInfo size={20} className='mt-1 ml-[0.7vw]' /><Link to="/about">About</Link></NavItem>
-          <NavItem className='flex flex-col'><FaTractor size={20} className='mt-1 ml-[0.7vw]' /><Link to="/farms">Farms</Link></NavItem>
+        <Link to="/"><NavItem className='flex flex-col'><FaHome size={20} className='mt-1 ml-[0.7vw]' />Home</NavItem></Link>
+        <Link to="/about"><NavItem className='flex flex-col'><FaInfo size={20} className='mt-1 ml-[0.7vw]' />About</NavItem></Link>
+        <Link to="/farms"><NavItem className='flex flex-col'><FaTractor size={20} className='mt-1 ml-[0.7vw]' />Farms</NavItem></Link>
         </nav>
         {/* ::Site logo and Name */}
         <Link to="/" className="flex items-center justify-center flex-shrink-0 ml-4 sm:mr-12 md:mb-0">
@@ -38,9 +38,9 @@ useEffect(() => {
         </Link>
         {/* ::Navbar rigth part */}
         <nav className="flex-wrap items-center hidden text-base tracking-wide md:flex md:justify-start">
-        <NavItem className='flex flex-col'><FaShoppingCart size={20} className='mt-1 ml-[1.2vw]' /><Link to="/products">Products</Link></NavItem>
-          <NavItem className='flex flex-col'><FaHandsHelping size={20} className='mt-1 ml-[1.2vw]' /><Link to="/services ">Services</Link></NavItem>
-          <NavItem className='flex flex-col'><FaPhone size={20} className='mt-1 ml-[1.2vw]' /><Link to="/contacts">Contact</Link></NavItem>
+        <Link to="/products"><NavItem className='flex flex-col'><FaShoppingCart size={20} className='mt-1 ml-[1.2vw]' />Products</NavItem></Link>
+        <Link to="/services "><NavItem className='flex flex-col'><FaHandsHelping size={20} className='mt-1 ml-[1.2vw]' />Services</NavItem></Link>
+        <Link to="/contacts"> <NavItem className='flex flex-col'><FaPhone size={20} className='mt-1 ml-[1.2vw]' />Contact</NavItem></Link>
         </nav>
         <Outlet/>
       </div>
