@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <div>
-      <Navbar />
+      <Navbar className='sticky' />
       <div className="w-full h-[50vh] md:h-[86vh] ">
         <Carousel>
           

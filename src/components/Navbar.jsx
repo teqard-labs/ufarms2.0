@@ -16,17 +16,17 @@ const Navbar = () => {
         {/* ::Navbar left part */}
         <nav className="flex-wrap items-center hidden text-base tracking-wide md:flex md:justify-start">
           <NavItem><Link to="/">Home</Link></NavItem>
-          <NavItem><Link to="/products">Products</Link></NavItem>
+          <NavItem><Link to="/about">About</Link></NavItem>
           <NavItem><Link to="/farms">Farms</Link></NavItem>
         </nav>
         {/* ::Site logo and Name */}
         <Link to="/" className="flex items-center justify-center flex-shrink-0 ml-4 sm:mr-12 md:mb-0">
-          <img src={Logo} className="w-18 h-14" />
+          <img src={Logo} className="w-18 h-14" alt=''/>
          
         </Link>
         {/* ::Navbar rigth part */}
         <nav className="flex-wrap items-center hidden text-base tracking-wide md:flex md:justify-start">
-          <NavItem><Link to="/about">About</Link></NavItem>
+        <NavItem><Link to="/products">Products</Link></NavItem>
           <NavItem><Link to="/services ">Services</Link></NavItem>
           <NavItem><Link to="/contacts">Contact</Link></NavItem>
         </nav>
