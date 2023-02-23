@@ -1,42 +1,58 @@
-import React from 'react';
-import { useRef } from 'react';
-import { ClockIcon, LocationMarkerIcon, MailIcon, PhoneIcon } from '@heroicons/react/solid'
+import {React, useRef } from 'react';
+import { ClockIcon, LocationMarkerIcon, MailIcon, PhoneIcon,XIcon } from '@heroicons/react/solid'
 import InputEffect1 from './InputEffect1'
 import Navbar from './Navbar';
 import Footer from './Footer';
 
 
-
 const Contacts = () => {
-  const nameRef = useRef()
-  const emailRef = useRef()
-  const messageRef = useRef()
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    /* 
-    Do something here !
-    */
+  const nameRef = useRef(null);
+  const emailRef = useRef(null);
+  const messageRef = useRef(null);
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    // Submit the form using Formspree
+    fetch('https://formspree.io/f/xrgvqrde', {
+      method: 'POST',
+      body: new FormData(event.target),
+      headers: {
+        'Accept': 'application/json'
+      }
+    })
+    .then(response => {
+      if (response.ok) {
+        alert('Thanks for your message!');
+        event.target.reset();
+      } else {
+        throw new Error('There was an error sending your message.');
+      }
+    })
+    .catch(error => {
+      console.error(error);
+      alert(error.message);
+    });
   }
-
+  
  return (
   <div>
     <Navbar/>
 
-   <div className="relative mx-auto w-full max-w-7xl bg-white text-gray-700">
+   <div className="relative w-full mx-auto text-gray-700 bg-white max-w-7xl">
      
      {/* :HEADER */}
-     <div className="relative pt-20 md:pt-40 pb-32 px-4 flex justify-center items-center">
+     <div className="relative flex items-center justify-center px-4 pt-20 pb-32 md:pt-40">
 
        {/* ::Background Image */}
-       <img src="https://www.thespruce.com/thmb/A4B7gXN_1nRYH9ARAF0TnAD3iwo=/2122x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-165831199-56d751df3df78cfb37da972c.jpg" alt="" className="absolute inset-0 w-full h-full object-cover" />
+       <img src="https://www.thespruce.com/thmb/A4B7gXN_1nRYH9ARAF0TnAD3iwo=/2122x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-165831199-56d751df3df78cfb37da972c.jpg" alt="" className="absolute inset-0 object-cover w-full h-full" />
 
        {/* ::Inner Container */}
        <div className="relative text-center">
          {/* :::title contact */}
-         <h2 className="text-6xl md:text-8xl text-white font-serif tracking-wider" style={{ textShadow: "1px 1px 2px #7d7d7d" }}>Contact</h2>
+         <h2 className="font-serif text-6xl tracking-wider text-white md:text-8xl" style={{ textShadow: "1px 1px 2px #7d7d7d" }}>Contact</h2>
          {/* :::sub text */}
-         <p className="text-xl text-white text-opacity-75 font-semibold"></p>
+         <p className="text-xl font-semibold text-white text-opacity-75"></p>
        </div>
 
      </div>
@@ -46,75 +62,75 @@ const Contacts = () => {
 
      {/* :BODY */}
      <div className="w-full">
-       <div className="relative bottom-20 mx-auto pt-10 px-4 lg:p-10 max-w-5xl grid grid-cols-2 gap-y-10 rounded-sm shadow-sm bg-white">
+       <div className="relative grid max-w-5xl grid-cols-2 px-4 pt-10 mx-auto bg-white rounded-sm shadow-sm bottom-20 lg:p-10 gap-y-10">
 
          {/* ::Contact Information Container */}
-         <div className="col-span-full md:col-span-1 mx-auto max-w-md space-y-7 md:space-y-14">
+         <div className="max-w-md mx-auto col-span-full md:col-span-1 space-y-7 md:space-y-14">
            {/* :::Title container */}
            <div className="space-y-4">
              {/* ::::title contact us */}
-             <h3 className="text-3xl font-serif">Contact Us</h3>
+             <h3 className="font-serif text-3xl">Contact Us</h3>
              {/* ::::some text */}
              <p className="text-sm text-gray-500">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam maiores facilis accusamus porro quae molestiae esse voluptatibus, eligendi quibusdam facere culpa sint ipsa illum quas quod illo eveniet minima dignissimos.</p>
            </div>
            {/* :::Infos container */}
            <div className="grid grid-cols-2 gap-y-8 gap-x-4">
              {/* ::::address */}
-             <div className="col-span-1 flex flex-col space-y-1">
+             <div className="flex flex-col col-span-1 space-y-1">
                <LocationMarkerIcon className="w-8 h-8 text-[#028A0F]" />
-               <h4 className="text-sm text-gray-500 font-bold uppercase">Address</h4>
-               <p className="text-xs lg:text-sm text-gray-500">18 Avenue des Champs-Élysées, <br /> 75008 Paris <br /> France</p>
+               <h4 className="text-sm font-bold text-gray-500 uppercase">Address</h4>
+               <p className="text-xs text-gray-500 lg:text-sm">18 Avenue des Champs-Élysées, <br /> 75008 Paris <br /> France</p>
              </div>
              {/* ::::opening hours */}
-             <div className="col-span-1 flex flex-col space-y-1">
+             <div className="flex flex-col col-span-1 space-y-1">
                <ClockIcon className="w-8 h-8 text-[#028A0F]" />
-               <h4 className="text-sm text-gray-500 font-bold uppercase">Opening hours</h4>
-               <ul className="text-xs lg:text-sm text-gray-500">
+               <h4 className="text-sm font-bold text-gray-500 uppercase">Opening hours</h4>
+               <ul className="text-xs text-gray-500 lg:text-sm">
                  <li>Monday to Friday: 10am to 7pm</li>
                  <li>Saturday: 10am to 4pm</li>
                  <li>Sunday: 12am to 4pm</li>
                </ul>
              </div>
              {/* ::::email contact */}
-             <div className="col-span-1 flex flex-col space-y-1">
+             <div className="flex flex-col col-span-1 space-y-1">
                <MailIcon className="w-8 h-8 text-[#028A0F]" />
-               <h4 className="text-sm text-gray-500 font-bold uppercase">Email</h4>
-               <a href="mailto:#" className="text-xs lg:text-sm text-gray-500 hover:text-gray-700">contact-support@fancymail.com</a>
+               <h4 className="text-sm font-bold text-gray-500 uppercase">Email</h4>
+               <a href="mailto:#" className="text-xs text-gray-500 lg:text-sm hover:text-gray-700">contact-support@fancymail.com</a>
              </div>
              {/* ::::phone contact */}
-             <div className="col-span-1 flex flex-col space-y-1">
+             <div className="flex flex-col col-span-1 space-y-1">
                <PhoneIcon className="w-8 h-8 text-[#028A0F]" />
-               <h4 className="text-sm text-gray-500 font-bold uppercase">Phone</h4>
-               <p className="text-xs lg:text-sm text-gray-500">Call customer services at: <br /> XXX-XXXX-XXXX</p>
+               <h4 className="text-sm font-bold text-gray-500 uppercase">Phone</h4>
+               <p className="text-xs text-gray-500 lg:text-sm">Call customer services at: <br /> XXX-XXXX-XXXX</p>
              </div>
            </div>
          </div>
 
          {/* ::Contact Form Container */}
          <div className="col-span-full md:col-span-1 sm:px-4">
-           <div className="mx-auto py-10 px-5 max-w-xl rounded-sm border border-gray-100 shadow-xl">
+           <div className="max-w-xl px-5 py-10 mx-auto border border-gray-100 rounded-sm shadow-xl">
              {/* :::Title container */}
-             <div className="mx-auto max-w-xs text-center">
+             <div className="max-w-xs mx-auto text-center">
                {/* ::::title drop us a line */}
                <h3 className="text-3xl text-[#028A0F] font-serif">Drop us a line</h3>
                {/* ::::some text */}
                <p className="text-sm text-gray-500">Please feel free to contact us if you have any further questions or concerns</p>
              </div>
              {/* :::Contact form */}
-             <form action="" className="mt-6 mx-auto max-w-xs flex flex-col space-y-5" onSubmit={handleSubmit}>
+             <form action="" className="flex flex-col max-w-xs mx-auto mt-6 space-y-5" onSubmit={handleSubmit}>
                {/* ::::name input */}
-               <InputEffect1 refInput={nameRef} labelInput="Name" typeInput="text" idInput="name" placeholder="Your Name" />
+               <InputEffect1 ref={nameRef} labelInput="Name" typeInput="text" idInput="name" placeholder="Your Name" />
                {/* ::::email input */}
-               <InputEffect1 refInput={emailRef} labelInput="Email" typeInput="email" idInput="email" placeholder="Your Email" />
+               <InputEffect1 ref={emailRef}  labelInput="Email" typeInput="email" idInput="email" placeholder="Your Email" />
                {/* ::::message input */}
                <div className="pt-2 space-y-2 text-sm">
-                 <label htmlFor="message" className="relative left-3 text-gray-300">Your Message</label>
-                 <textarea ref={messageRef} name="message" id="message" cols="30" rows="3" 
-                   className="form-textarea resize-none w-full shadow-sm border-0 border-t-2 border-gray-300 bg-transparent focus:border-transparent focus:ring-1 focus:ring-teal-500"
+                 <label htmlFor="message" className="relative text-gray-300 left-3">Your Message</label>
+                 <textarea ref={messageRef}  name="message" id="message" cols="30" rows="3" 
+                   className="w-full bg-transparent border-0 border-t-2 border-gray-300 shadow-sm resize-none form-textarea focus:border-transparent focus:ring-1 focus:ring-teal-500"
                  ></textarea>
                </div>
                {/* ::::send message button */}
-               <button className="mx-auto py-2 px-4 w-40 rounded-full bg-[#028A0F] text-sm text-white font-semibold tracking-wide hover:bg-[#03AC13]">Send message!</button>
+               <button className="mx-auto py-2 px-4 w-40 rounded-full bg-gradient-to-r from-[#caf880] to-[#70cf7d] hover:from-[#028A0F] hover:to-[#028A0F]  text-sm text-black font-semibold tracking-wide" >Send message!</button>
              </form>
            </div>
          </div>
