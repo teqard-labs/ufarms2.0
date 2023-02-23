@@ -1,15 +1,17 @@
-import {React, useRef } from 'react';
+import {React, useRef, } from 'react';
 import { ClockIcon, LocationMarkerIcon, MailIcon, PhoneIcon,XIcon } from '@heroicons/react/solid'
 import InputEffect1 from './InputEffect1'
 import Navbar from './Navbar';
 import Footer from './Footer';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contacts = () => {
 
   const nameRef = useRef(null);
   const emailRef = useRef(null);
   const messageRef = useRef(null);
+
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -23,7 +25,7 @@ const Contacts = () => {
     })
     .then(response => {
       if (response.ok) {
-        alert('Thanks for your message!');
+        toast.success('Your message has been sent!', { autoClose: 3000 });
         event.target.reset();
       } else {
         throw new Error('There was an error sending your message.');
@@ -31,14 +33,14 @@ const Contacts = () => {
     })
     .catch(error => {
       console.error(error);
-      alert(error.message);
+      toast.error(error.message, { autoClose: 5000 });
     });
   }
   
  return (
   <div>
     <Navbar/>
-
+    <ToastContainer  position="bottom-right" />
    <div className="relative w-full mx-auto text-gray-700 bg-white max-w-7xl">
      
      {/* :HEADER */}
@@ -126,7 +128,7 @@ const Contacts = () => {
                <div className="pt-2 space-y-2 text-sm">
                  <label htmlFor="message" className="relative text-gray-300 left-3">Your Message</label>
                  <textarea ref={messageRef}  name="message" id="message" cols="30" rows="3" 
-                   className="w-full bg-transparent border-0 border-t-2 border-gray-300 shadow-sm resize-none form-textarea focus:border-transparent focus:ring-1 focus:ring-teal-500"
+                   className="w-full bg-transparent border-0 border-t-2 border-gray-300 shadow-sm resize-none form-textarea focus:border-transparent focus:ring-1 focus:ring-[#028A0F]"
                  ></textarea>
                </div>
                {/* ::::send message button */}
