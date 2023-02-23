@@ -3,11 +3,12 @@ import React, { useState } from 'react'
 import NavItem from './dependables/NavItem'
 import Burger from './dependables/Burger'
 import { Outlet, Link } from "react-router-dom";
+import { FaHome, FaInfo, FaShoppingCart, FaPhone, FaHandsHelping,FaTractor } from 'react-icons/fa';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="w-full mb-4 text-black bg-white body-font">
+    <header className="w-full mb-4 text-black bg-white body-font" >
 
       {/* :DESKTOP MENU */}
       <div className="container relative flex items-center justify-between px-5 py-2 mx-auto md:justify-center sm:py-7">
@@ -15,9 +16,9 @@ const Navbar = () => {
         <Burger isOpen={isOpen} setIsOpen={setIsOpen}/>
         {/* ::Navbar left part */}
         <nav className="flex-wrap items-center hidden text-base tracking-wide md:flex md:justify-start">
-          <NavItem><Link to="/">Home</Link></NavItem>
-          <NavItem><Link to="/about">About</Link></NavItem>
-          <NavItem><Link to="/farms">Farms</Link></NavItem>
+          <NavItem className='flex flex-col'><FaHome size={20} className='mt-1 ml-[0.7vw]' /><Link to="/">Home</Link></NavItem>
+          <NavItem className='flex flex-col'><FaInfo size={20} className='mt-1 ml-[0.7vw]' /><Link to="/about">About</Link></NavItem>
+          <NavItem className='flex flex-col'><FaTractor size={20} className='mt-1 ml-[0.7vw]' /><Link to="/farms">Farms</Link></NavItem>
         </nav>
         {/* ::Site logo and Name */}
         <Link to="/" className="flex items-center justify-center flex-shrink-0 ml-4 sm:mr-12 md:mb-0">
@@ -26,9 +27,9 @@ const Navbar = () => {
         </Link>
         {/* ::Navbar rigth part */}
         <nav className="flex-wrap items-center hidden text-base tracking-wide md:flex md:justify-start">
-        <NavItem><Link to="/products">Products</Link></NavItem>
-          <NavItem><Link to="/services ">Services</Link></NavItem>
-          <NavItem><Link to="/contacts">Contact</Link></NavItem>
+        <NavItem className='flex flex-col'><FaShoppingCart size={20} className='mt-1 ml-[1.2vw]' /><Link to="/products">Products</Link></NavItem>
+          <NavItem className='flex flex-col'><FaHandsHelping size={20} className='mt-1 ml-[1.2vw]' /><Link to="/services ">Services</Link></NavItem>
+          <NavItem className='flex flex-col'><FaPhone size={20} className='mt-1 ml-[1.2vw]' /><Link to="/contacts">Contact</Link></NavItem>
         </nav>
         <Outlet/>
       </div>

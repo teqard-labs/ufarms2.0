@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom'
 import React from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
@@ -77,7 +77,7 @@ const Products = () => {
                       {/* ::::picture */}
                       <img src={product.picture} alt={product.pictureAlt} className="object-cover object-center w-full h-full" />
                       {/* ::::overlay background */}
-                      <div className="absolute inset-0 w-full h-full bg-gradient-to-t from-[#028A0F] via-transparent opacity-70 group-hover:from-transparent" />
+                      <div className="absolute inset-0 w-full h-full bg-gradient-to-t from-[#caf880] via-transparent  to-[#70cf7d] opacity-70 group-hover:from-transparent" />
                     </div>
                     {/* :::price */}
                     <span className="z-20 absolute bottom-3 right-5 px-0.5 rounded-md text-2xl text-white font-semibold antialiased group-hover:text-gray-700 group-hover:bg-white group-hover:bg-opacity-70">{`$${product.price}`}</span>
@@ -91,7 +91,7 @@ const Products = () => {
                       {/* ::::colors description */}
                       <p className="mt-1 text-sm font-medium text-gray-500">{product.description}</p>
                       {/* ::::add to cart button */}
-                      <button className="mt-4 py-1.5 w-full rounded-md bg-gradient-to-r from-[#caf880] to-[#70cf7d] text-sm text-white font-semibold tracking-wide hover:from-gray-100 hover:to-white hover:text-black">Add to bag</button>
+                      <Link to="/contacts"><button className="mt-4 py-1.5 w-full rounded-md bg-gradient-to-r from-[#caf880] to-[#70cf7d]  text-sm text-black font-semibold tracking-wide hover:from-[#028A0F] hover:to-[#028A0F] hover:text-black">Want to Buy ?</button></Link>
                     </div>
                   </div>
                 </a>

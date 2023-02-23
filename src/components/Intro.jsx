@@ -3,7 +3,7 @@ import React from 'react';
 const Intro = () => {
     return (
         <div>
-            <div className="relative mx-auto py-16 md:mt-32 px-4 w-full h-[60vh] bg-white">
+            <div className="relative mx-auto py-16 md:mt-32 px-4 w-full h-[60vh] bg-white overflow-hidden">
                 <div className="flex max-w-6xl mx-auto">
 
                     {/* :TITLE CONTAINER */}
