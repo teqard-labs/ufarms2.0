@@ -1,14 +1,25 @@
 import Logo from '../assets/logo.jpg'
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import NavItem from './dependables/NavItem'
 import Burger from './dependables/Burger'
 import { Outlet, Link } from "react-router-dom";
 import { FaHome, FaInfo, FaShoppingCart, FaPhone, FaHandsHelping,FaTractor } from 'react-icons/fa';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
+const [scrollPos, setScrollPos] = useState(0);
+useEffect(() => {
+  const handleScroll = () => {
+    setScrollPos(window.pageYOffset);
+  };
 
+  window.addEventListener("scroll", handleScroll);
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
   return (
-    <header className="w-full mb-4 text-black bg-white body-font" >
+    <header className={`w-full mb-4 text-black bg-white body-font ${scrollPos > 0 ? "fixed top-0 left-0 z-50 shadow-lg" : ""}`}>
 
       {/* :DESKTOP MENU */}
       <div className="container relative flex items-center justify-between px-5 py-2 mx-auto md:justify-center sm:py-7">
