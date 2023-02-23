@@ -34,7 +34,7 @@ const About = () => {
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                       {/* Content goes here */}
-                      <p>Our mission is to provide our customers with the best hydroponic products, knowledge, and support. We aim to make hydroponic gardening accessible and affordable for everyone, from hobbyists to commercial farmers.</p>
+                      <p>ufarms  aims to change this scenario by introducing a automated grow device which is a complete IoT system including interactive app.  A token-based community(ufarms.io) economy would be built alongside the customers of the grow unit. The intrinsic value of this economy is derived from the established idea if monetarily carbon credits. Growers would be rewarded tokens based on carbon offset achieved by using the system when compared to buying from local market. This promotes the idea of environmental sustainability while rewarding the growers for their contribution made to the ecosystem. </p>
                     </Disclosure.Panel>
                   </>
                 )}
@@ -52,7 +52,7 @@ const About = () => {
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                       {/* Content goes here */}
-                      <p>We offer a wide range of hydroponic products, including nutrient-rich water solutions, grow lights, hydroponic systems, and other accessories. All of our products are carefully selected to ensure that they are of the highest quality and will provide our customers with the best results</p>
+                      <p>At ufarms, we are proud to offer a comprehensive solution for anyone who wants to grow their own vegan food. Our product includes an autodosing system that takes care of all the fertilization needs of your plants. With the autodosing system, you don't have to worry about getting the right nutrients to your plants; our system takes care of it automatically. Our grow kit includes everything you need to get started, including a grow tent, LED grow light, and grow bags. Finally, our grow app is an interactive tool that helps you track the progress of your plants and provides valuable insights into how to optimize your growing environment. With the autodosing system, grow kit, and grow app, we've got everything you need to get started with your own sustainable food production.</p>
                     </Disclosure.Panel>
                   </>
                 )}
@@ -70,7 +70,9 @@ const About = () => {
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                       {/* Content goes here */}
-                      <p>Choose Ufarms.io for accessible and successful hydroponic gardening. Our wide range of high-quality products, expert knowledge and support, and excellent customer service make us the go-to choice for hobbyists and commercial farmers alike. Benefit from our team's years of experience and dedication to providing the best possible products at affordable prices. Start or expand your hydroponic journey with us.</p>
+                      <p>ufarms is designed based on a bus model architecture, thereby enabling it to have unlimited ports, valves & sensors. This significantly enhances the scalability of the system compared to the conventional approach. 
+Crop specific database is the other most important unique feature of the system. The nutritional & environmental parameter requirements for each crop at each growth phase are different, and maintaining these crop & phase-specific parameters is the single most important factor affecting productivity. Our solution incorporates a crop & phase-specific database developed through years of research for tuning these parameters for maximum agricultural output.
+</p>
                     </Disclosure.Panel>
                   </>
                 )}
@@ -89,7 +91,7 @@ const About = () => {
   
         </div> 
         <div className="w-full px-4 py-5 mx-auto mt-4 max-w-7xl">
-      <p className="max-w-4xl mt-3 text-lg  text-[#028A0F]">Welcome to Ufarms.io, your one-stop destination for all things hydroponic. We are a team of passionate experts who have been providing hydroponic solutions to our customers for many years. We believe that hydroponics is the future of agriculture and are dedicated to helping our customers grow the freshest and most nutritious crops possible.</p>
+      <p className="max-w-4xl mt-3 text-lg  text-[#028A0F]">Welcome to Ufarms.io, your one-stop destination for all things hydroponic. ufarms is an IoT-enabled automated farming ecosystem called ufarms, people can intelligently grow their own vegan food with hardly any human involvement. The system only needs human assistance for planting and harvesting; it will take care of the plant's other needs for monitoring and fertilization on its own.With our technology we have successfully managed to mitigate the issues faced in a hydroponic growing system. </p>
     </div>
         
 	<div className="container px-4 py-8 mx-auto mt-5 space-y-12 ">
