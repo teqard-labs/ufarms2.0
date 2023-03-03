@@ -93,7 +93,7 @@ const Farms = () => {
           
 
           {products.map((product, index) => (
-            <a key={product.id} className={`col-span-1 group relative py-1 mb-6 pl-4 sm:pl-8 pr-4 mr-4 bg-white`}>
+            <a key={product.id} className="col-span-1 group relative py-1 mb-6 pl-4 sm:pl-8 pr-4 mr-4 bg-white">
               {/* ::Details */}
               <div className="relative z-10 flex flex-col items-start space-y-1">
                 {/* :::badges */}
@@ -108,8 +108,8 @@ const Farms = () => {
                 </span>
               </div>
               {/* ::Picture */}
-              <img src={product.picture} alt="" className="absolute -top-2 md:right-10 right-0 md:h-[23vh] md:max-lg:h-[20vh] max-h-[20vh] md:max-lg:right-0 md:w-[15vw] w-[40vw] h-[17vh] opacity-100  lg:opacity-100 group-hover:scale-110" />   
-              <div className='border-2 w-full ml-5 mt-10'/>
+              <img src={product.picture} alt="" className="absolute object-fill rounded-full -top-4 md:right-10 right-0 md:h-[31vh] md:max-lg:h-[20vh]  md:max-lg:right-0 md:w-[15vw] w-[40vw] h-[17vh] opacity-100  lg:opacity-100 scale-75 group-hover:scale-90" />   
+              <div className='border-2 w-full ml-5 mt-20'/>
             </a>
           ))
           }

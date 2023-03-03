@@ -31,7 +31,7 @@ const FeaturesLayout7 = () => {
 
 
         {/* :FEATURES CONTAINER */}
-        <div className="mt-8 sm:mt-16 grid grid-cols-1 sm:max-md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-5">
+        <div className="mt-8 sm:mt-16 grid grid-cols-2 sm:max-md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-5">
           {data.map(item => {
             
             return (
@@ -39,7 +39,7 @@ const FeaturesLayout7 = () => {
               {/* ::Icon */}
               <span>
                 {/* Icon goes here */}
-                <img src={item.src} className="h-[35vh] w-[80vw] md:h-[40vh] rounded-2xl" alt="hi"/>
+                <img src={item.src} className="h-[20vh] w-[80vw] md:h-[40vh] rounded-2xl" alt="hi"/>
               </span>
               {/* ::Name */}
               <span className="mt-5 text-xl text-black font-bold">{item.name}</span>

@@ -52,7 +52,7 @@ useEffect(() => {
           <Link to="/products" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Products</Link>
           <Link to="/about" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">About</Link>
           <Link to="/farms" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Farms</Link>
-          <Link to="/services " className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Services</Link>
+          <Link to="/services" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Services</Link>
           <Link to="/contacts" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Contact</Link>
         </div>
       }

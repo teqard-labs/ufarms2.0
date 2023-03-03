@@ -3,7 +3,7 @@ import React from 'react'
 import BackToTop from 'react-back-to-top-button'
 const Footer = () => {
   return (
-    <footer className="w-full px-4 py-5 bg-[#028A0F] sm:py-10"> {/* Container */}
+    <footer className="w-full px-4 py-5 bg-[#028A0F] "> {/* Container */}
       <h2 className="sr-only">Footer</h2>
       <div className="flex flex-col-reverse sm:flex-row md:justify-between lg:justify-around">
 
