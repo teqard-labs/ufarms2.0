@@ -1,5 +1,5 @@
 import {React, useRef, } from 'react';
-import { ClockIcon, LocationMarkerIcon, MailIcon, PhoneIcon,XIcon } from '@heroicons/react/solid'
+import { ClockIcon, LocationMarkerIcon, MailIcon, PhoneIcon } from '@heroicons/react/solid'
 import InputEffect1 from './InputEffect1'
 import Navbar from './Navbar';
 import Footer from './Footer';
@@ -16,7 +16,7 @@ const Contacts = () => {
   function handleSubmit(event) {
     event.preventDefault();
     // Submit the form using Formspree
-    fetch('https://formspree.io/f/xrgvqrde', {
+    fetch('https://formspree.io/f/xwkjoazp', {
       method: 'POST',
       body: new FormData(event.target),
       headers: {
