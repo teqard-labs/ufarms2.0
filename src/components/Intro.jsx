@@ -1,10 +1,12 @@
 import React from 'react';
+import Intro1 from '../assets/c4.jpg'
+import Intro2 from '../assets/c5.jpg'
 
 const Intro = () => {
     return (
         <div>
             <div className="relative mx-auto py-16 md:mt-32 px-4 w-full h-[60vh] bg-white overflow-hidden">
-                <div className="flex max-w-6xl mx-auto">
+                <div className="mx-auto max-w-6xl flex">
 
                     {/* :TITLE CONTAINER */}
                     <div className="relative z-10 flex flex-col items-center w-full max-w-lg py-10 mx-auto text-center md:mx-0 md:items-start md:text-left">
@@ -15,23 +17,25 @@ const Intro = () => {
                         {/* Content goes here */}
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos culpa enim vel porro commodi rerum tempora dolorem. Vero, et minus! Harum minus alias, commodi repudiandae tenetur molestias at cum optio.
                         {/* ::Button */}
+                        <a href='/ufarms2.0#/about'>
                         <button type="button" className="mt-3 relative inline-flex items-center px-5 py-2.5 rounded border border-gray-700 bg-gradient-to-r from-[#caf880] to-[#70cf7d] text-base text-gray-700 font-semibold hover:from-[#028A0F] hover:to-[#028A0F] hover:text-white">
                             Know More
                         </button>
+                        </a>
                     </div>
 
 
                     {/* :IMAGES CONTAINER */}
-                    <div className="absolute flex w-full transform -translate-x-1/2 -translate-y-1/2 md:relative top-1/2 left-1/2 md:inset-0 sm:ml-5 md:w-1/2 h-3/4 md:h-auto md:min-h-full md:translate-x-0 md:translate-y-0">
+                    <div className="absolute flex w-full transform -translate-x-1/2 -translate-y-1/2 md:relative top-1/2 left-[40%] md:inset-0 sm:ml-5 md:w-1/2 h-3/4 md:h-auto md:min-h-full md:translate-x-0 md:translate-y-0">
                         {/* ::Image 1 */}
-                        <div className="relative flex-shrink-0 h-full overflow-hidden rounded shadow bottom-8 left-10 w-80">
+                        <div className="relative flex-shrink-0 h-fit overflow-hidden rounded shadow bottom-8 left-10 w-80">
                             {/* Image goes here */}
-                            {/* <img src={image1} alt="" className="absolute inset-0 object-cover object-center w-full h-full" /> */}
+                            <img src={Intro1} alt="I1"/>
                         </div>
                         {/* ::Image 2 */}
-                        <div className="relative flex-shrink-0 h-full overflow-hidden rounded shadow top-8 right-28 sm:right-10 md:right-28 lg:right-10 w-80">
+                        <div className="relative flex-shrink-0 h-fit overflow-hidden rounded shadow top-8 right-28 sm:right-10 md:right-28 lg:right-10 w-80">
                             {/* Image goes here */}
-                            {/* <img src={image2} alt="" className="absolute inset-0 object-cover object-center w-full h-full" /> */}
+                            <img src={Intro2} alt="I2"/>
                         </div>
                     </div>
 

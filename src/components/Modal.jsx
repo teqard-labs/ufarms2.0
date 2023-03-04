@@ -14,13 +14,14 @@ const Modal1=()=> {
   };
 
 
+
   return (
     <>
-       <button type="button" onClick={handleOpenModal} className="relative inline-flex items-center px-3 py-2 text-base font-normal text-white bg-gradient-to-r from-[#caf880] to-[#70cf7d] hover:from-[#028A0F] hover:to-[#028A0F] border-2 border-[#028A0F] rounded">
+       <button type="button" onClick={handleOpenModal} className="mt-4 py-2 w-28 h-15 rounded-md bg-gradient-to-r from-[#caf880] to-[#70cf7d]  text-sm text-black font-semibold tracking-wide hover:from-[#028A0F] hover:to-[#028A0F] hover:text-white">
           Know More
         </button>
-      <Modal show={showModal} onClose={handleCloseModal} className="bg-green-700 ">
-        <Modal.Header className="mt-5">Details</Modal.Header>
+      <Modal show={showModal} onClose={handleCloseModal} className="bg-green-700 pt-20">
+        <Modal.Header className="">Details</Modal.Header>
         <Modal.Body>
         <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
         <Carousel>
@@ -56,7 +57,6 @@ const Modal1=()=> {
             </div>
         </Modal.Body>
         <Modal.Footer>
-          <button onClick={handleCloseModal} className="relative inline-flex items-center px-5 py-2 text-base font-semibold text-white bg-gradient-to-r from-[#caf880] to-[#70cf7d] hover:from-[#028A0F] hover:to-[#028A0F] border-2 border-[#028A0F] rounded">Close</button>
         </Modal.Footer>
       </Modal>
     </>

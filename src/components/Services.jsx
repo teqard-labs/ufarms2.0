@@ -88,9 +88,9 @@ const Features8 = () => {
                 <PuzzleIcon className="w-8 h-8" />
               </span>
               {/* Title */}
-              <dt className="text-lg font-semibold text-[#028A0F]">Harvesting</dt>
+              <dt className="text-lg font-semibold text-[#028A0F]">Smart irrigation</dt>
               {/* Text */}
-              <dd className="text-sm leading-relaxed text-gray-500">Automated farms use robots to harvest crops, reducing the need for manual labor and increasing efficiency. This can also help to reduce crop damage during harvesting.</dd>
+              <dd className="text-sm leading-relaxed text-gray-500"> ufarms use a variety of sensors and other technologies to monitor and control water usage, which can help to reduce waste and ensure optimal moisture levels for crops.</dd>
             </div>
             
             {/* :::feature 4 -> Solutions & Consulting */}
