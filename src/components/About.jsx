@@ -62,10 +62,9 @@ const About = () => {
                       {/* Content goes here */}
                       <p>At ufarms, we are proud to offer a comprehensive solution for anyone who wants to grow their own vegan food.
                         Our product includes an autodosing system that takes care of all the fertilization needs of your plants.
-                        With the autodosing system, you don't have to worry about getting the right nutrients to your plants,our system takes care of it automatically.
                         Our grow kit includes everything you need to get started, including a grow tent, LED grow light, and grow bags. 
                         Finally, our grow app is an interactive tool that helps you track the progress of your plants and provides valuable insights into how to optimize your growing environment.
-                        With the autodosing system, grow kit, and grow app, we've got everything you need to get started with your own sustainable food production.
+                       
                       </p>
                     </Disclosure.Panel>
                   </>

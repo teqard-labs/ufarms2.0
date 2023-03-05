@@ -30,7 +30,7 @@ const Footer = () => {
                 </svg>
               </a>
               {/* Instagram */}
-              <a href="#link" className="ml-3 text-white">
+              <a href="https://www.instagram.com/ufarms.io/" className="ml-3 text-white">
                 <span className="sr-only">Instagram</span>
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
                   <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
@@ -38,7 +38,7 @@ const Footer = () => {
                 </svg>
               </a>
               {/* Linkedin */}
-              <a href="#link" className="ml-3 text-white">
+              <a href="https://www.linkedin.com/company/ufarmsio/" className="ml-3 text-white">
                 <span className="sr-only">Linkedin</span>
                 <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0" className="w-6 h-6" viewBox="0 0 24 24">
                   <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
