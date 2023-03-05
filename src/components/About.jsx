@@ -37,12 +37,7 @@ const About = () => {
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                       {/* Content goes here */}
-                      <p>Ufarms aims to change this scenario by introducing a automated grow device which is a complete IoT system including interactive app.
-                        A token-based community(ufarms.io) economy would be built alongside the customers of the grow unit.
-                        The intrinsic value of this economy is derived from the established idea if monetarily carbon credits.
-                        Growers would be rewarded tokens based on carbon offset achieved by using the system when compared to buying from local market.
-                        This promotes the idea of environmental sustainability while rewarding the growers for their contribution made to the ecosystem.
-                      </p>
+                      <p>At ufarms we aim to become an agriculture technology company that aims to transform the food supply chain through innovative technologies and sustainable practices. Our company's mission is to create a world where everyone has access to fresh and healthy food that is grown sustainably and efficiently with minimal human effort.</p>
                     </Disclosure.Panel>
                   </>
                 )}
@@ -84,12 +79,7 @@ const About = () => {
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
                       {/* Content goes here */}
-                      <p>Ufarms is designed based on a bus model architecture, thereby enabling it to have unlimited ports, valves & sensors.
-                        This significantly enhances the scalability of the system compared to the conventional approach.
-                        Crop specific database is the other most important unique feature of the system.
-                        The nutritional & environmental parameter requirements for each crop at each growth phase are different, and maintaining these crop & phase-specific parameters is the single most important factor affecting productivity.
-                        Our solution incorporates a crop & phase-specific database developed through years of research for tuning these parameters for maximum agricultural output.
-                      </p>
+                      <p>ufarms is based on bus model architecture allows for unlimited ports, valves, and sensors, making it  scalable compared to traditional agricultural systems .By  incorporating crop-specific data, ufarms can help optimize conditions for plant growth and increase productivity and for those who prioritize environmental conscious practices in their agricultural operations ,ufarms ensures a  sustainable farming practice.</p>
                     </Disclosure.Panel>
                   </>
                 )}
