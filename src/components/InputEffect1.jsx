@@ -16,7 +16,7 @@ const InputEffect1 = ({ refInput, labelInput, typeInput, idInput, placeholder })
         onBlur={() => setFocused(false)}
       />
       {/* Border bottom effect */}
-      <span className={`absolute bottom-0 left-0 h-0.5 bg-teal-400 transition-all duration-500 ease-in transform ${focused ? "w-full" : "w-0"}`} aria-hidden="true" />
+      <span className={`absolute bottom-0 left-0 h-0.5 bg-[#028A0F] transition-all duration-500 ease-in transform ${focused ? "w-full" : "w-0"}`} aria-hidden="true" />
     </div>
   )
 }

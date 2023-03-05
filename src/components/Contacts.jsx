@@ -81,7 +81,11 @@ const Contacts = () => {
              <div className="flex flex-col col-span-1 space-y-1">
                <LocationMarkerIcon className="w-8 h-8 text-[#028A0F]" />
                <h4 className="text-sm font-bold text-gray-500 uppercase">Address</h4>
-               <p className="text-xs text-gray-500 lg:text-sm">18 Avenue des Champs-Élysées, <br /> 75008 Paris <br /> France</p>
+               <p className="text-xs text-gray-500 lg:text-sm">Marangadan Puthussery Bldg,
+
+Nayathode (CIAL City 130),
+
+<br /> Angamaly P.O, Ernakulam, <br />  Kerala, India, PIN : 683572</p>
              </div>
              {/* ::::opening hours */}
              <div className="flex flex-col col-span-1 space-y-1">
@@ -97,13 +101,13 @@ const Contacts = () => {
              <div className="flex flex-col col-span-1 space-y-1">
                <MailIcon className="w-8 h-8 text-[#028A0F]" />
                <h4 className="text-sm font-bold text-gray-500 uppercase">Email</h4>
-               <a href="mailto:#" className="text-xs text-gray-500 lg:text-sm hover:text-gray-700">contact-support@fancymail.com</a>
+               <a href="mailto:#" className="text-xs text-gray-500 lg:text-sm hover:text-gray-700">info@teqardlabs.com</a>
              </div>
              {/* ::::phone contact */}
              <div className="flex flex-col col-span-1 space-y-1">
                <PhoneIcon className="w-8 h-8 text-[#028A0F]" />
                <h4 className="text-sm font-bold text-gray-500 uppercase">Phone</h4>
-               <p className="text-xs text-gray-500 lg:text-sm">Call customer services at: <br /> XXX-XXXX-XXXX</p>
+               <p className="text-xs text-gray-500 lg:text-sm">Call our services at: <br />+91 9496516291, +91 9645546443</p>
              </div>
            </div>
          </div>
