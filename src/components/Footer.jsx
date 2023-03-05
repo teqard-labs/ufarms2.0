@@ -30,7 +30,7 @@ const Footer = () => {
                 </svg>
               </a>
               {/* Instagram */}
-              <a href="https://www.instagram.com/ufarms.io/?igshid=YmMyMTA2M2Y%3D" className="ml-3 text-white">
+              <a href="https://www.instagram.com/ufarms.io/" className="ml-3 text-white">
                 <span className="sr-only">Instagram</span>
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
                   <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>

@@ -49,7 +49,7 @@ const Features8 = () => {
               {/* Title */}
               <dt className="text-lg font-semibold text-[#028A0F]">Crop monitoring</dt>
               {/* Text */}
-              <dd className="text-sm leading-relaxed text-gray-500">Automated farms use sensors, drones, and satellite imagery to monitor crop health, growth, and yield. This helps farmers to identify issues like pests, diseases, or nutrient deficiencies early on and take corrective measures.</dd>
+              <dd className="text-sm leading-relaxed text-gray-500">ufarms use sensors, drones, and satellite imagery to monitor crop health, growth, and yield. This helps farmers to identify issues like pests, diseases, or nutrient deficiencies early on and take corrective measures.</dd>
             </div>
 
             {/* :::feature 2 -> Unique Strategy */}
@@ -61,7 +61,7 @@ const Features8 = () => {
               {/* Title */}
               <dt className="text-lg font-semibold text-[#028A0F]">Precision agriculture</dt>
               {/* Text */}
-              <dd className="text-sm leading-relaxed text-gray-500">Automated farms use GPS and other technologies to precisely control the application of water, fertilizer, and pesticides. This reduces waste and maximizes yields.</dd>
+              <dd className="text-sm leading-relaxed text-gray-500">ufarms use remote sensing, data analytics and other technologies to precisely control the application of water, fertilizer, and pesticides. This reduces waste and maximizes yields.</dd>
             </div>
 
             {/* :::feature 4 -> Solutions & Consulting */}
@@ -73,7 +73,7 @@ const Features8 = () => {
               {/* Title */}
               <dt className="text-lg font-semibold text-[#028A0F]">Data analytics</dt>
               {/* Text */}
-              <dd className="text-sm leading-relaxed text-gray-500">Automated farms collect vast amounts of data on crop and livestock performance, weather patterns, soil conditions, and other factors. This data can be analyzed to identify trends and optimize farming practices.</dd>
+              <dd className="text-sm leading-relaxed text-gray-500">ufarms collect vast amounts of data on crop and livestock performance, weather patterns, soil conditions, and other factors. This data can be analyzed to identify trends and optimize farming practices.</dd>
             </div>
 
           </div>
@@ -102,7 +102,7 @@ const Features8 = () => {
               {/* Title */}
               <dt className="text-lg font-semibold text-[#028A0F]">Energy efficiency</dt>
               {/* Text */}
-              <dd className="text-sm leading-relaxed text-gray-500">Automated farms can use renewable energy sources like solar or wind power to reduce their environmental impact and save on energy costs.</dd>
+              <dd className="text-sm leading-relaxed text-gray-500">ufarms can use renewable energy sources like solar or wind power to reduce their environmental impact and save on energy costs.</dd>
             </div>
 
             {/* :::feature 4 -> Solutions & Consulting */}
@@ -114,7 +114,7 @@ const Features8 = () => {
               {/* Title */}
               <dt className="text-lg font-semibold text-[#028A0F]">Predictive maintenance</dt>
               {/* Text */}
-              <dd className="text-sm leading-relaxed text-gray-500"> Automated farms use data analytics and machine learning to predict when equipment will need maintenance or repair. This helps to reduce downtime and optimize equipment performance.</dd>
+              <dd className="text-sm leading-relaxed text-gray-500"> ufarms use data analytics and machine learning to predict when equipment will need maintenance or repair. This helps to reduce downtime and optimize equipment performance.</dd>
             </div>
 
             
