@@ -41,7 +41,7 @@ const Features8 = () => {
           <div className="relative flex flex-col h-full px-3 space-y-4 md:top-10 md:w-1/2 sm:flex-row md:flex-col sm:space-y-0 md:space-y-8">
             
             {/* :::feature 1 */}
-            <div className="flex flex-col items-center justify-center w-full max-w-xs px-5 mx-auto space-y-3 bg-white border border-gray-100 shadow-md py-7 sm:items-start">
+            <div className="flex flex-col items-center justify-center w-full max-w-xs px-5 mx-auto space-y-3 bg-white border border-gray-100 hover:scale-110 shadow-md py-7 sm:items-start">
               {/* Circle Icon */}
               <span className="w-14 h-14 inline-flex justify-center items-center rounded-full bg-gradient-to-tr from-[#caf880] to-[#70cf7d]  text-white">
                 <BeakerIcon className="w-8 h-8" />
@@ -53,7 +53,7 @@ const Features8 = () => {
             </div>
 
             {/* :::feature 2 -> Unique Strategy */}
-            <div className="flex flex-col items-center justify-center w-full max-w-xs px-5 mx-auto space-y-3 bg-white border border-gray-100 shadow-md py-7 sm:items-start">
+            <div className="flex flex-col items-center justify-center w-full max-w-xs px-5 mx-auto space-y-3 bg-white border border-gray-100 hover:scale-110 shadow-md py-7 sm:items-start">
               {/* Circle Icon */}
               <span className="w-14 h-14 inline-flex justify-center items-center rounded-full bg-gradient-to-br from-[#caf880] to-[#70cf7d] text-white">
                 <CubeTransparentIcon className="w-8 h-8" />
@@ -65,7 +65,7 @@ const Features8 = () => {
             </div>
 
             {/* :::feature 4 -> Solutions & Consulting */}
-            <div className="flex flex-col items-center justify-center w-full max-w-xs px-5 mx-auto space-y-3 bg-white border border-gray-100 shadow-md py-7 sm:items-start">
+            <div className="flex flex-col items-center justify-center w-full max-w-xs px-5 mx-auto space-y-3 bg-white border border-gray-100 hover:scale-110 shadow-md py-7 sm:items-start">
               {/* Circle Icon */}
               <span className="w-14 h-14 inline-flex justify-center items-center rounded-full bg-gradient-to-bl from-[#caf880] to-[#70cf7d] text-white">
                 <LightBulbIcon className="w-8 h-8" />
@@ -82,7 +82,7 @@ const Features8 = () => {
           <div className="relative flex flex-col h-full px-3 mt-4 space-y-4 md:bottom-10 sm:mt-0 md:w-1/2 sm:flex-row md:flex-col sm:space-y-0 md:space-y-8">
             
             {/* :::feature 3 -> Creative Ideas */}
-            <div className="flex flex-col items-center justify-center w-full max-w-xs px-5 mx-auto space-y-3 bg-white border border-gray-100 shadow-md py-7 sm:items-start">
+            <div className="flex flex-col items-center justify-center w-full max-w-xs px-5 mx-auto space-y-3 bg-white border border-gray-100 hover:scale-110 shadow-md py-7 sm:items-start">
               {/* Circle Icon */}
               <span className="w-14 h-14 inline-flex justify-center items-center rounded-full bg-gradient-to-tl from-[#caf880] to-[#70cf7d] text-white">
                 <PuzzleIcon className="w-8 h-8" />
@@ -94,7 +94,7 @@ const Features8 = () => {
             </div>
             
             {/* :::feature 4 -> Solutions & Consulting */}
-            <div className="flex flex-col items-center justify-center w-full max-w-xs px-5 mx-auto space-y-3 bg-white border border-gray-100 shadow-md py-7 sm:items-start">
+            <div className="flex flex-col items-center justify-center w-full max-w-xs px-5 mx-auto space-y-3 bg-white border border-gray-100 hover:scale-110 shadow-md py-7 sm:items-start">
               {/* Circle Icon */}
               <span className="w-14 h-14 inline-flex justify-center items-center rounded-full bg-gradient-to-bl from-[#caf880] to-[#70cf7d] text-white">
                 <LightBulbIcon className="w-8 h-8" />
@@ -106,7 +106,7 @@ const Features8 = () => {
             </div>
 
             {/* :::feature 4 -> Solutions & Consulting */}
-            <div className="flex flex-col items-center justify-center w-full max-w-xs px-5 mx-auto space-y-3 bg-white border border-gray-100 shadow-md py-7 sm:items-start">
+            <div className="flex flex-col items-center justify-center w-full max-w-xs px-5 mx-auto space-y-3 bg-white border border-gray-100 hover:scale-110 shadow-md py-7 sm:items-start">
               {/* Circle Icon */}
               <span className="w-14 h-14 inline-flex justify-center items-center rounded-full bg-gradient-to-bl from-[#caf880] to-[#70cf7d] text-white">
                 <PuzzleIcon className="w-8 h-8" />

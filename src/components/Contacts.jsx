@@ -114,7 +114,7 @@ Nayathode (CIAL City 130),
 
          {/* ::Contact Form Container */}
          <div className="col-span-full md:col-span-1 sm:px-4">
-           <div className="max-w-xl px-5 py-10 mx-auto border border-gray-100 rounded-sm shadow-xl">
+           <div className="max-w-xl px-5 py-10 mx-auto border border-gray-100 hover:scale-110 rounded-sm shadow-xl">
              {/* :::Title container */}
              <div className="max-w-xs mx-auto text-center">
                {/* ::::title drop us a line */}
