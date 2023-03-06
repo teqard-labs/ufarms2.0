@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ufarms2.0/static/css/main.bc2e956c.css",
-    "main.js": "/ufarms2.0/static/js/main.2c210fd4.js",
+    "main.css": "/ufarms2.0/static/css/main.2252802e.css",
+    "main.js": "/ufarms2.0/static/js/main.316eeb05.js",
     "static/js/27.80bd493d.chunk.js": "/ufarms2.0/static/js/27.80bd493d.chunk.js",
     "static/media/6.jpg": "/ufarms2.0/static/media/6.8300bbef116a354860aa.jpg",
     "static/media/c2.jpg": "/ufarms2.0/static/media/c2.f9afbc1cc3886623c30f.jpg",
@@ -13,7 +13,7 @@
     "static/media/1.jpeg": "/ufarms2.0/static/media/1.8ea94268d1aba2f95f1e.jpeg",
     "static/media/c5.jpg": "/ufarms2.0/static/media/c5.18a39971341210e832de.jpg",
     "static/media/3.jpg": "/ufarms2.0/static/media/3.93f0d93b0da63240ab2a.jpg",
-    "static/media/Support.svg": "/ufarms2.0/static/media/Support.82710bf5c22adf29094ae2a1ee8aaf04.svg",
+    "static/media/Support.svg": "/ufarms2.0/static/media/Support.a9acd3a6bfbc42a92aad78f667ece708.svg",
     "static/media/Adv-custom.svg": "/ufarms2.0/static/media/Adv-custom.8c854139a2390e6ca4454ed91c24747d.svg",
     "static/media/Smart home-cuate.svg": "/ufarms2.0/static/media/Smart home-cuate.61b9f06dd66c19f06ec1c12ad302dd8b.svg",
     "static/media/Smart home-pana.svg": "/ufarms2.0/static/media/Smart home-pana.0c29343b4f269241fae169626f3f8574.svg",
@@ -27,7 +27,7 @@
     "index.html": "/ufarms2.0/index.html"
   },
   "entrypoints": [
-    "static/css/main.bc2e956c.css",
-    "static/js/main.2c210fd4.js"
+    "static/css/main.2252802e.css",
+    "static/js/main.316eeb05.js"
   ]
 }
