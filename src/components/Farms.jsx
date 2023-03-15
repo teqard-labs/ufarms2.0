@@ -93,7 +93,7 @@ const Farms = () => {
           
 
           {products.map((product, index) => (
-            <a key={product.id} className="col-span-1 group relative py-1 mb-6 pl-4 sm:pl-8 pr-4 mr-4 bg-white">
+            <a key={product.id} href="#link" className="col-span-1 group relative py-1 mb-6 pl-4 sm:pl-8 pr-4 mr-4 bg-white">
               {/* ::Details */}
               <div className="relative z-10 flex flex-col items-start space-y-1">
                 {/* :::badges */}
