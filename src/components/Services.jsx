@@ -88,9 +88,9 @@ const Features8 = () => {
                 <PuzzleIcon className="w-8 h-8" />
               </span>
               {/* Title */}
-              <dt className="text-lg font-semibold text-[#028A0F]">Smart irrigation</dt>
+              <dt className="text-lg font-semibold text-[#028A0F]">Market Access</dt>
               {/* Text */}
-              <dd className="text-sm leading-relaxed text-gray-500"> ufarms use a variety of sensors and other technologies to monitor and control water usage, which can help to reduce waste and ensure optimal moisture levels for crops.</dd>
+              <dd className="text-sm leading-relaxed text-gray-500"> Ufarms can provide market access services to farmers, helping them to sell their produce to the right buyers at the right price. This can help farmers to increase their profits and build long-term relationships with buyers.</dd>
             </div>
             
             {/* :::feature 4 -> Solutions & Consulting */}
@@ -100,9 +100,9 @@ const Features8 = () => {
                 <LightBulbIcon className="w-8 h-8" />
               </span>
               {/* Title */}
-              <dt className="text-lg font-semibold text-[#028A0F]">Energy efficiency</dt>
+              <dt className="text-lg font-semibold text-[#028A0F]">Crop Management</dt>
               {/* Text */}
-              <dd className="text-sm leading-relaxed text-gray-500">ufarms can use renewable energy sources like solar or wind power to reduce their environmental impact and save on energy costs.</dd>
+              <dd className="text-sm leading-relaxed text-gray-500">Ufarms can provide services to help farmers manage their crops more efficiently, including soil analysis, fertilization advice, and disease detection. This can help farmers to increase their yield, reduce costs, and improve the quality of their crops.</dd>
             </div>
 
             {/* :::feature 4 -> Solutions & Consulting */}
@@ -112,9 +112,9 @@ const Features8 = () => {
                 <PuzzleIcon className="w-8 h-8" />
               </span>
               {/* Title */}
-              <dt className="text-lg font-semibold text-[#028A0F]">Predictive maintenance</dt>
+              <dt className="text-lg font-semibold text-[#028A0F]">IoT-based Farm Monitoring</dt>
               {/* Text */}
-              <dd className="text-sm leading-relaxed text-gray-500"> ufarms use data analytics and machine learning to predict when equipment will need maintenance or repair. This helps to reduce downtime and optimize equipment performance.</dd>
+              <dd className="text-sm leading-relaxed text-gray-500"> Ufarms can provide IoT-based monitoring solutions for farms to track various parameters like temperature,humidity, soil moisture, and other environmental factors that are crucial for plant growth. This can help farmers to optimize their yield, reduce wastage, and save resources.</dd>
             </div>
 
             
