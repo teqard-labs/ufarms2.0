@@ -70,11 +70,8 @@ const Footer = () => {
           {/* ::Address */}
           <div className="flex flex-col items-center col-span-2 px-4 pb-0 md:col-span-1 md:py-3 sm:items-start">
             <h3 className="py-1.5 md:py-4 text-xl text-white font-bold tracking-wide">Address</h3>
-            <p className="text-lg font-medium text-center md:w-48 sm:text-left md:text-xl">Marangadan Puthussery Bldg,
-
-Nayathode (CIAL City 130),
-
-Angamaly P.O, Ernakulam, Kerala, India, PIN : 683572</p>
+            <p className="text-lg font-medium text-center md:w-48 sm:text-left md:text-xl">Marangadan Puthussery Bldg,Nayathode (CIAL City 130),</p>
+            <p className="text-lg font-medium text-center md:w-48 sm:text-left md:text-xl">Angamaly P.O, Ernakulam, Kerala, India, PIN : 683572</p>
           </div>
           {/* ::Email */}
           <div className="flex flex-col items-center col-span-2 px-4 pb-0 md:col-span-1 md:py-3 sm:items-start">
