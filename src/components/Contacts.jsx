@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import Map from './Map';
 const Contacts = () => {
 
   const nameRef = useRef(null);
@@ -114,7 +114,7 @@ Nayathode (CIAL City 130),
 
          {/* ::Contact Form Container */}
          <div className="col-span-full md:col-span-1 sm:px-4">
-           <div className="max-w-xl px-5 py-10 mx-auto border border-gray-100 hover:scale-110 rounded-sm shadow-xl">
+           <div className="max-w-xl px-5 py-10 mx-auto border border-gray-100 rounded-sm shadow-xl hover:scale-110">
              {/* :::Title container */}
              <div className="max-w-xs mx-auto text-center">
                {/* ::::title drop us a line */}
@@ -145,7 +145,10 @@ Nayathode (CIAL City 130),
      </div>
 
    </div>
-  <Footer></Footer>
+   <Map />
+  <Footer>
+    
+  </Footer>
   </div>
     );
 }
