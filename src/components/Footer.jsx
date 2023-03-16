@@ -10,7 +10,7 @@ const Footer = () => {
         {/* :SITE NAME & SOCIAL NETWORKS */}
         <div className="relative flex flex-col items-center justify-center px-5 text-white mt-14 sm:mt-0">
           {/* ::Site name */}
-          <h1 className="mt-auto text-4xl font-semibold text-center font-title">Ufarms.io</h1>
+          <h1 className="mt-auto text-4xl font-semibold text-center font-title">ufarms.io</h1>
           {/* ::Social & copyright */}
           <div className="flex flex-col items-center mt-auto">
             {/* :::Social */}
