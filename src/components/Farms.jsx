@@ -79,10 +79,10 @@ const Farms = () => {
   return (
     <>
       <Nav />
-      <div className="grid grid-cols-1 mt-20 sm:grid-cols-2">
+      <div className="grid grid-cols-1 mt-20 sm:grid-cols-2 overflow-hidden">
         {products.map((product, index) => (
           <div className="text-black hover:scale-105 ">
-            <div className="grid grid-cols-12 mx-2 my-2 bg-green-100 border-2 rounded-lg border-cyan-50 hover:bg-gradient-to-tr from-[#70cf7d] to-[#caf880]">
+            <div className="grid grid-cols-12 mx-4 my-4 bg-green-100 border-2 rounded-lg border-cyan-50  hover:bg-gradient-to-tr from-[#70cf7d] to-[#caf880]">
               <div className="justify-center hidden col-start-7 col-span-full lg:col-span-4 md:inline">
                 <img src={product.picture} alt="" className=" rounded-full md:right-10 right-0 md:h-[35vh] md:max-lg:h-[20vh] md:max-lg:right-0 md:w-[40vw] w-[40vw] h-[17vh] opacity-100 scale-75 sm:left-0 sm:top-0" />
               </div>

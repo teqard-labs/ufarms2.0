@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import { BeakerIcon, CubeTransparentIcon, LightBulbIcon, PuzzleIcon } from '@heroicons/react/outline'
 import Footer from './Footer'
+import c1 from '../assets/Service.gif';
 
 
 const Features8 = () => {
@@ -11,16 +12,17 @@ const Features8 = () => {
     <Navbar/>
     <div className="w-full px-3 py-16 mx-auto max-w-7xl bg-white-50">
       {/* CONTAINER */}
-      <div className="flex flex-col items-center w-full max-w-6xl mx-auto space-y-10 lg:flex-row md:space-y-0">
+      <div className="flex flex-col items-start w-full max-w-6xl mx-auto space-y-10 lg:flex-row md:space-y-0">
 
 
         {/* :TITLE CONTAINER */}
-        <div className="relative flex flex-col justify-center flex-shrink-0 w-auto h-full text-center sm:px-4 md:text-left">
+        <div className="relative flex flex-col justify-start pb-52 flex-shrink-0 w-auto h-full text-center sm:px-4 md:text-left">
 
-          
+          {/*Illustration*/}
+          <img src={c1}  alt="Loading..... " classname=" -top-10 "/>
 
           {/* ::Title */}
-          <h2 className="mb-6 text-3xl sm:text-5xl font-extrabold capitalize space-y-4 text-[#028A0F]">
+          <h2 className="mb-6 text-3xl sm:text-5xl font-extrabold pt-10 capitalize space-y-4 text-[#028A0F]">
             <span className="block">Services We Provide</span>
            
           </h2>

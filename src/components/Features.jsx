@@ -31,11 +31,11 @@ const FeaturesLayout7 = () => {
 
 
         {/* :FEATURES CONTAINER */}
-        <div className="mt-8 sm:mt-16 grid grid-cols-2 sm:max-md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-5">
+        <div className="mt-8 sm:mt-16 grid grid-cols-2 sm:max-md:grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-5 ">
           {data.map(item => {
             
             return (
-            <div key={item.id} className="col-span-1 flex flex-col items-center text-center">
+            <div key={item.id} className="col-span-1 flex flex-col items-center text-center hover:scale-110">
               {/* ::Icon */}
               <span>
                 {/* Icon goes here */}
