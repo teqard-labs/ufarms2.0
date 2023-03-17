@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ufarms2.0/static/css/main.2252802e.css",
-    "main.js": "/ufarms2.0/static/js/main.316eeb05.js",
+    "main.css": "/ufarms2.0/static/css/main.b92063bb.css",
+    "main.js": "/ufarms2.0/static/js/main.29171926.js",
     "static/js/27.80bd493d.chunk.js": "/ufarms2.0/static/js/27.80bd493d.chunk.js",
     "static/media/6.jpg": "/ufarms2.0/static/media/6.8300bbef116a354860aa.jpg",
     "static/media/c2.jpg": "/ufarms2.0/static/media/c2.f9afbc1cc3886623c30f.jpg",
@@ -19,15 +19,20 @@
     "static/media/Smart home-pana.svg": "/ufarms2.0/static/media/Smart home-pana.0c29343b4f269241fae169626f3f8574.svg",
     "static/media/2.jpg": "/ufarms2.0/static/media/2.154967470a533e74d054.jpg",
     "static/media/Experts-pana.svg": "/ufarms2.0/static/media/Experts-pana.8e3b1301519ece57805209ac0bdafd6d.svg",
+    "static/media/Contacts.gif": "/ufarms2.0/static/media/Contacts.4c7eff7640a09731d01a.gif",
     "static/media/Processing.svg": "/ufarms2.0/static/media/Processing.7f689f3ac632eb62366a5daad8cf0133.svg",
     "static/media/7.jpeg": "/ufarms2.0/static/media/7.7b803d91d2af8d690a2e.jpeg",
     "static/media/Water drop-rafiki.svg": "/ufarms2.0/static/media/Water drop-rafiki.86fb3de7bc08c7ba19b90287c3f13219.svg",
     "static/media/logo.jpg": "/ufarms2.0/static/media/logo.6514cc6efc941de3b480.jpg",
     "static/media/Deadline-pana.svg": "/ufarms2.0/static/media/Deadline-pana.a5050a97de19f541876c93003c1afc39.svg",
+    "static/media/slick.svg": "/ufarms2.0/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/ufarms2.0/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/ufarms2.0/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/ufarms2.0/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ufarms2.0/index.html"
   },
   "entrypoints": [
-    "static/css/main.2252802e.css",
-    "static/js/main.316eeb05.js"
+    "static/css/main.b92063bb.css",
+    "static/js/main.29171926.js"
   ]
 }
