@@ -109,7 +109,7 @@ const Farms = () => {
                   {/* <span className="text-xs">3 min read</span> */}
 
                   <div className="flex flex-col items-center justify-center md:hidden">
-                    <img src={product.picture} alt="" className=" w-[60vw] h-[30vh]  rounded-full items-center  md:hidden" />
+                    <img src={product.picture} alt="" className=" w-[60vw] h-[30vh]  rounded-full items-center scale-[0.88]  md:hidden" />
                     <div className="flex justify-start">
 
                       <span className="py-1 text-lg rounded-full dark:bg-violet-400 dark:text-gray-900">{product.badge}</span>
