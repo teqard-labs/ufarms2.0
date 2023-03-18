@@ -75,7 +75,6 @@ const Home = () => {
 
       <Intro />
       <Features />
-      <HowItWorks />
       <Footer />
     </div>
   );
