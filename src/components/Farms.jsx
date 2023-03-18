@@ -18,7 +18,8 @@ const Farms = () => {
       id: 1,
 
       name: "Farm 1",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      crop: "Crop: Palak",
+      description: "Kerala's First Fully Automated Hydroponic Farm",
       badge: "Tomato !",
       badgeClass: "text-orange-500",
       picture: P1,
@@ -28,11 +29,12 @@ const Farms = () => {
       id: 2,
 
       name: "Farm 2",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      crop: "Crop: Not Available",
+      description: "---Under Construction---",
       badge: "Radish !",
       badgeClass: "text-lime-500",
       picture: P2,
-      location: "Trivandrum, Karama",
+      location: "Trivandrum, Karamana",
     },
     // {
     //   id: 3,
@@ -82,17 +84,18 @@ const Farms = () => {
       <div className="grid grid-cols-1 mt-20 sm:grid-cols-2 overflow-hidden">
         {products.map((product, index) => (
           <div className="text-black hover:scale-105 ">
-            <div className="grid grid-cols-12 mx-4 my-4 bg-green-100 border-2 rounded-lg border-cyan-50  hover:bg-gradient-to-tr from-[#70cf7d] to-[#caf880]">
+            <div className="grid grid-cols-12 mx-4 my-6 bg-green-100 border-2 rounded-lg border-cyan-50 h-[18em]  hover:bg-gradient-to-tr from-[#70cf7d] to-[#caf880]">
               <div className="justify-center hidden col-start-7 col-span-full lg:col-span-4 md:inline">
                 <img src={product.picture} alt="" className=" rounded-full md:right-10 right-0 md:h-[35vh] md:max-lg:h-[20vh] md:max-lg:right-0 md:w-[40vw] w-[40vw] h-[17vh] opacity-100 scale-75 sm:left-0 sm:top-0" />
               </div>
               <div className="p-6 col-span-full row-span-full lg:col-span-8 lg:p-10 ">
                 <div className='flex flex-col'>
-                  <div className="justify-start hidden md:inline ">
+                  {/* <div className="justify-start hidden md:inline ">
                     <span className="py-1 text-lg rounded-full dark:bg-violet-400 dark:text-gray-900">{product.badge}</span>
-                  </div>
+                  </div> */}
                   <h1 className="hidden text-3xl font-semibold md:inline">{product.name}</h1>
-                  <p className="hidden text-lg text-gray-500 md:block lg:w-2/3">{product.description}</p>
+                  <p className="hidden font-bold text-lg text-green-500 md:block lg:w-2/3">{product.crop}</p>
+                  <p className="hidden font-semibold text-lg text-gray-500 md:block lg:w-2/3">{product.description}</p>
                   <div className='hidden md:inline'>
                   <Modal1 /></div>
                   <div className="items-center justify-between hidden pt-2 mt-2 md:inline">
