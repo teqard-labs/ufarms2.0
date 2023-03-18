@@ -23,9 +23,6 @@ const Home = () => {
               alt="..."
               className='min-h-[60%]'
             />
-            <div className='container absolute w-[23vw] h-[70vh] top-[22%] left-[10%] block bg-slate-200 bg-opacity-90 z-1'>
-
-            </div>
           </div>
 
           <div className=''>
@@ -33,9 +30,7 @@ const Home = () => {
               src={c2}
               alt="..."
             />
-            <div className='container absolute w-[23vw] h-[70vh] top-[27%] left-[10%] block bg-slate-200 bg-opacity-90 z-1'>
 
-            </div>
           </div>
 
           <div>
@@ -43,9 +38,7 @@ const Home = () => {
               src={c3}
               alt="..."
             />
-            <div className='container absolute w-[23vw] h-[70vh] top-[27%] left-[10%] block bg-slate-200 bg-opacity-90 z-1'>
 
-            </div>
           </div>
 
           <div>
@@ -53,9 +46,7 @@ const Home = () => {
               src={c2}
               alt="..."
             />
-            <div className='container absolute w-[23vw] h-[70vh] top-[27%] left-[10%] block bg-slate-200 bg-opacity-90 z-1'>
 
-            </div>
           </div>
 
           <div>
@@ -65,9 +56,6 @@ const Home = () => {
               className='min-h-[60%]'
             />
 
-            <div className='container absolute w-[23vw] h-[70vh] top-[22%] left-[10%] block bg-slate-200 bg-opacity-90 z-1'>
-
-            </div>
           </div>
         </Carousel>
 

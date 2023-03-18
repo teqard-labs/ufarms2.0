@@ -81,7 +81,7 @@ const Farms = () => {
   return (
     <>
       <Nav />
-      <div className="grid grid-cols-1 mt-20 sm:grid-cols-2 overflow-hidden">
+      <div className="grid grid-cols-1 mt-20 overflow-hidden sm:grid-cols-2">
         {products.map((product, index) => (
           <div className="text-black hover:scale-105 ">
             <div className="grid grid-cols-12 mx-4 my-6 bg-green-100 border-2 rounded-lg border-cyan-50 h-[18em]  hover:bg-gradient-to-tr from-[#70cf7d] to-[#caf880]">
