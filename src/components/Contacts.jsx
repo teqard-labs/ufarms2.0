@@ -48,7 +48,7 @@ const Contacts = () => {
         {/* :HEADER */}
         <div className="relative flex items-center justify-center px-4 mb-6">
           {/* ::Background Image */}
-          <img src={A1} alt="loading..." className="w-[30vw] h-[60vh]"/>
+          <img src={A1} alt="loading..." className="w-[75vw] md:w-[30vw] h-[40vh] md:h-[60vh]"/>
 
           {/* ::Inner Container */}
           <div className="relative text-center">
