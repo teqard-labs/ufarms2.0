@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ufarms2.0/static/css/main.1b6f5405.css",
-    "main.js": "/ufarms2.0/static/js/main.44cc8df1.js",
+    "main.css": "/ufarms2.0/static/css/main.fcd8a851.css",
+    "main.js": "/ufarms2.0/static/js/main.d6f93995.js",
     "static/js/27.80bd493d.chunk.js": "/ufarms2.0/static/js/27.80bd493d.chunk.js",
     "static/media/6.jpg": "/ufarms2.0/static/media/6.e108978137a4ef1f8cbe.jpg",
     "static/media/c2.jpg": "/ufarms2.0/static/media/c2.f9afbc1cc3886623c30f.jpg",
@@ -18,13 +18,13 @@
     "static/media/1.jpg": "/ufarms2.0/static/media/1.5126a42b9717db449998.jpg",
     "static/media/Service.gif": "/ufarms2.0/static/media/Service.c89b5e2fb6b2d03afc99.gif",
     "static/media/5.jpg": "/ufarms2.0/static/media/5.32f413fb436a8de51db0.jpg",
-    "static/media/Support.svg": "/ufarms2.0/static/media/Support.a9acd3a6bfbc42a92aad78f667ece708.svg",
+    "static/media/Support.svg": "/ufarms2.0/static/media/Support.82710bf5c22adf29094ae2a1ee8aaf04.svg",
     "static/media/Adv-custom.svg": "/ufarms2.0/static/media/Adv-custom.8c854139a2390e6ca4454ed91c24747d.svg",
     "static/media/Smart home-cuate.svg": "/ufarms2.0/static/media/Smart home-cuate.61b9f06dd66c19f06ec1c12ad302dd8b.svg",
     "static/media/Smart home-pana.svg": "/ufarms2.0/static/media/Smart home-pana.0c29343b4f269241fae169626f3f8574.svg",
     "static/media/Experts-pana.svg": "/ufarms2.0/static/media/Experts-pana.8e3b1301519ece57805209ac0bdafd6d.svg",
     "static/media/Contacts.gif": "/ufarms2.0/static/media/Contacts.4c7eff7640a09731d01a.gif",
-    "static/media/All the data-rafiki.svg": "/ufarms2.0/static/media/All the data-rafiki.5fa297869f6b42b5c44a3ba3da3feb86.svg",
+    "static/media/All the data-rafiki.svg": "/ufarms2.0/static/media/All the data-rafiki.56f18253408ef3aee7dfa0f60572395d.svg",
     "static/media/Site Stats.svg": "/ufarms2.0/static/media/Site Stats.35fdfb3f6a3d5fed4def4f85cfcb1521.svg",
     "static/media/Processing.svg": "/ufarms2.0/static/media/Processing.7f689f3ac632eb62366a5daad8cf0133.svg",
     "static/media/7.jpeg": "/ufarms2.0/static/media/7.7b803d91d2af8d690a2e.jpeg",
@@ -37,7 +37,7 @@
     "index.html": "/ufarms2.0/index.html"
   },
   "entrypoints": [
-    "static/css/main.1b6f5405.css",
-    "static/js/main.44cc8df1.js"
+    "static/css/main.fcd8a851.css",
+    "static/js/main.d6f93995.js"
   ]
 }
