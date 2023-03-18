@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ufarms2.0/static/css/main.12a77526.css",
-    "main.js": "/ufarms2.0/static/js/main.54f3775b.js",
+    "main.css": "/ufarms2.0/static/css/main.1b6f5405.css",
+    "main.js": "/ufarms2.0/static/js/main.44cc8df1.js",
     "static/js/27.80bd493d.chunk.js": "/ufarms2.0/static/js/27.80bd493d.chunk.js",
     "static/media/6.jpg": "/ufarms2.0/static/media/6.e108978137a4ef1f8cbe.jpg",
     "static/media/c2.jpg": "/ufarms2.0/static/media/c2.f9afbc1cc3886623c30f.jpg",
@@ -37,7 +37,7 @@
     "index.html": "/ufarms2.0/index.html"
   },
   "entrypoints": [
-    "static/css/main.12a77526.css",
-    "static/js/main.54f3775b.js"
+    "static/css/main.1b6f5405.css",
+    "static/js/main.44cc8df1.js"
   ]
 }
