@@ -61,7 +61,7 @@ const Navbar = () => {
         </Link>
         {/* ::Navbar rigth part */}
         <nav className="flex-wrap items-center hidden text-base tracking-wide md:flex md:justify-start">
-        <Link to="/products"><NavItem className={`flex flex-col ${isActive('/products')}`}><FaShoppingCart size={20} className='mt-1 ml-[1.2vw]' />Products</NavItem></Link>
+        {/* <Link to="/products"><NavItem className={`flex flex-col ${isActive('/products')}`}><FaShoppingCart size={20} className='mt-1 ml-[1.2vw]' />Products</NavItem></Link> */}
         <Link to="/services"><NavItem className={`flex flex-col ${isActive('/services')}`}><FaHandsHelping size={20} className='mt-1 ml-[1.2vw]' />Services</NavItem></Link>
         <Link to="/contacts"> <NavItem className={`flex flex-col ${isActive('/contacts')}`}><FaPhone size={20} className='mt-1 ml-[1.2vw]' />Contact</NavItem></Link>
         </nav>

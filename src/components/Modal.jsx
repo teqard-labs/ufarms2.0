@@ -1,5 +1,12 @@
 import { useState } from 'react';
 import {  Modal,Carousel } from 'flowbite-react';
+import F1 from '../assets/farm/1.jpg'
+import F2 from '../assets/farm/2.jpg'
+import F3 from '../assets/farm/3.jpg'
+import F4 from '../assets/farm/4.jpg'
+import F5 from '../assets/farm/5.jpg'
+import F6 from '../assets/farm/6.jpg'
+import F7 from '../assets/farm/7.jpg'
 
 const Modal1=()=> {
   const [showModal, setShowModal] = useState(false);
@@ -26,23 +33,31 @@ const Modal1=()=> {
         <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
         <Carousel>
             <img
-              src="https://assets.weforum.org/article/image/responsive_big_webp_WxZnPfCh3elRtPyzhRY9XyAi6L9J8DKPjYq_-FUVEtA.webp"
+              src={F1}
               alt="..."
             />
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXzDfCpeQgBLAlX1w2iNrr5Ll0bNWRcMYpYA&usqp=CAU"
+              src={F2}
               alt="..."
             />
             <img
-              src="https://c2.staticflickr.com/2/1779/42225728250_16df0bbcac_z.jpg"
+              src={F3}
               alt="..."
             />
             <img
-              src="https://assets.weforum.org/article/image/responsive_big_webp_WxZnPfCh3elRtPyzhRY9XyAi6L9J8DKPjYq_-FUVEtA.webp"
+              src={F4}
               alt="..."
             />
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXzDfCpeQgBLAlX1w2iNrr5Ll0bNWRcMYpYA&usqp=CAU"
+              src={F5}
+              alt="..."
+            />
+            <img
+              src={F6}
+              alt="..."
+            />
+            <img
+              src={F7}
               alt="..."
             />
           </Carousel>
