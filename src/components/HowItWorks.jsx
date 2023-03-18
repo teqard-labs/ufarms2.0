@@ -8,15 +8,20 @@ const HowItWorks = () => {
                 <div className="flex flex-col items-center">
 
                     {/* :TITLE CONTAINER */}
-                    <div className="mx-auto max-w-xl text-center">
-                        <h2 className="text-lg text-gray-400 font-bold tracking-wide">How It Works</h2>
-                        <p className="mt-2 text-3xl sm:text-4xl lg:text-5xl text-grey-400 font-bold capitalize tracking-wide">A big title goes here</p>
-                    </div>
+                    {/* <div className="mx-auto max-w-[90vw] ">
+                        <h2 className="text-5xl text-gray-400 font-bold tracking-wide text-center">How ufarms work?</h2>
+                        <p className="mt-2 text-base sm:text-lg lg:text-2xl text-grey-400 font-semibold capitalize">
+                        <li>ufarms is a complete farming automation system tuned for the highest productivity per unit area. </li>
+                        <li>It utilizes sensors to identify environmental parameters critical for plant growth such as temperature, ph, EC, humidity etc and compare this information with cloud based  crop specific databases through an IoT control box.  </li>
+                        <li>The cloud  based algorithms decide on the optimal parameters required and instructs the IoT control box to actuate devices like dosing pumps, cooling fans, fertigation etc to maintain the environmental parameters at an optimal level for maximum productivity.  </li>
+                        <li>An app/web-based dashboard is provided to monitor and control these activities. </li>
+                        </p>
+                    </div> */}
 
 
 
                     {/* :WATCH DEMO */}
-                    <div className="relative mt-8 mx-auto aspect-w-5 aspect-h-3 md:aspect-h-2 w-full max-h-[20vh] md:max-h-[77vh] h-full  md:max-w-[60vw] flex justify-center items-center bg-gray-400 overflow-hidden">
+                    <div className="relative mt-8 mx-auto aspect-w-5 aspect-h-3 md:aspect-h-2 w-full max-h-[20vh] md:max-h-[84vh] h-full  md:max-w-[60vw] flex justify-center items-center bg-gray-400 overflow-hidden">
                         {/* iframe goes here */}
 
                         <iframe src='https://www.youtube.com/embed/E7wJTI-1dvQ'

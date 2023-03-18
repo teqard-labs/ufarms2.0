@@ -5,7 +5,7 @@ import Intro2 from '../assets/c5.jpg'
 const Intro = () => {
     return (
         <div>
-            <div className="relative mx-auto py-16 md:mt-32 px-4 w-full h-[60vh] bg-white overflow-hidden">
+            <div className="relative mx-auto py-16 md:mt-32 px-4 w-full h-[75vh] md:h-[60vh] bg-white overflow-hidden">
                 <div className="mx-auto max-w-6xl flex">
 
                     {/* :TITLE CONTAINER */}

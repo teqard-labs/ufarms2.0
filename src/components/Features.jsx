@@ -2,10 +2,11 @@
 import React from 'react'
 import P1 from '../assets/svg/Smart home-pana.svg'
 import P2 from '../assets/svg/Smart home-cuate.svg'
-import P3 from '../assets/3.jpg'
-import P4 from '../assets/svg/Water drop-rafiki.svg'
+import P3 from '../assets/svg/All the data-rafiki.svg'
+import P4 from '../assets/svg/Site Stats.svg'
 import P6 from '../assets/svg/Processing.svg'
 import P7 from '../assets/svg/Deadline-pana.svg'
+
 
 
 const FeaturesLayout7 = () => {
@@ -13,8 +14,8 @@ const FeaturesLayout7 = () => {
   const data = [
     { id: 1, name: "Temperature and Humidity", src:P1},
     { id: 2, name: "Automatic Ligthing", src:P2},
-    { id: 3, name: "pH", src:P3},
-    { id: 4, name: "Water Level Monitoring", src:P4},
+    { id: 3, name: "IoT Enabled", src:P3},
+    { id: 4, name: "Elegant Dashboard", src:P4},
     { id: 5, name: "Fully Automated", src:P6},
     { id: 6, name: "Realtime Monitoring", src:P7},
   ]

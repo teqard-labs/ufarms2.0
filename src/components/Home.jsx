@@ -15,30 +15,60 @@ const Home = () => {
   return (
     <div>
       <Navbar className='sticky' />
-      <div className="w-full h-[50vh] md:h-[86vh] ">
+      <div className="w-full h-[50vh] md:h-[86vh] relative ">
         <Carousel className='md:h-[95%]'>
-          <img
-            src={c1}
-            alt="..."
-            className='min-h-[60%]'
-          />
-          <img
-            src={c2}
-            alt="..."
-          />
-          <img
-            src={c3}
-            alt="..."
-          />
-          <img
-            src={c2}
-            alt="..."
-          />
-          <img
-            src={c1}
-            alt="..."
-            className='min-h-[60%]'
-          />
+          <div className=''>
+            <img
+              src={c1}
+              alt="..."
+              className='min-h-[60%]'
+            />
+            <div className='container absolute w-[23vw] h-[70vh] top-[22%] left-[10%] block bg-slate-200 bg-opacity-90 z-1'>
+
+            </div>
+          </div>
+
+          <div className=''>
+            <img
+              src={c2}
+              alt="..."
+            />
+            <div className='container absolute w-[23vw] h-[70vh] top-[27%] left-[10%] block bg-slate-200 bg-opacity-90 z-1'>
+
+            </div>
+          </div>
+
+          <div>
+            <img
+              src={c3}
+              alt="..."
+            />
+            <div className='container absolute w-[23vw] h-[70vh] top-[27%] left-[10%] block bg-slate-200 bg-opacity-90 z-1'>
+
+            </div>
+          </div>
+
+          <div>
+            <img
+              src={c2}
+              alt="..."
+            />
+            <div className='container absolute w-[23vw] h-[70vh] top-[27%] left-[10%] block bg-slate-200 bg-opacity-90 z-1'>
+
+            </div>
+          </div>
+
+          <div>
+            <img
+              src={c1}
+              alt="..."
+              className='min-h-[60%]'
+            />
+
+            <div className='container absolute w-[23vw] h-[70vh] top-[22%] left-[10%] block bg-slate-200 bg-opacity-90 z-1'>
+
+            </div>
+          </div>
         </Carousel>
 
       </div>
