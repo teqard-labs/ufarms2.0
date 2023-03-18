@@ -18,7 +18,7 @@ const Farms = () => {
       id: 1,
 
       name: "Farm 1",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description: "Connected, smart, data-driven, efficient, optimized.",
       badge: "Tomato !",
       badgeClass: "text-orange-500",
       picture: P1,
@@ -28,7 +28,7 @@ const Farms = () => {
       id: 2,
 
       name: "Farm 2",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description: "Connected, smart, data-driven, efficient, optimized.",
       badge: "Radish !",
       badgeClass: "text-lime-500",
       picture: P2,
@@ -79,7 +79,7 @@ const Farms = () => {
   return (
     <>
       <Nav />
-      <div className="grid grid-cols-1 mt-20 sm:grid-cols-2 overflow-hidden">
+      <div className="grid grid-cols-1 mt-20 overflow-hidden sm:grid-cols-2">
         {products.map((product, index) => (
           <div className="text-black hover:scale-105 ">
             <div className="grid grid-cols-12 mx-4 my-4 bg-green-100 border-2 rounded-lg border-cyan-50  hover:bg-gradient-to-tr from-[#70cf7d] to-[#caf880]">
@@ -88,9 +88,6 @@ const Farms = () => {
               </div>
               <div className="p-6 col-span-full row-span-full lg:col-span-8 lg:p-10 ">
                 <div className='flex flex-col'>
-                  <div className="justify-start hidden md:inline ">
-                    <span className="py-1 text-lg rounded-full dark:bg-violet-400 dark:text-gray-900">{product.badge}</span>
-                  </div>
                   <h1 className="hidden text-3xl font-semibold md:inline">{product.name}</h1>
                   <p className="hidden text-lg text-gray-500 md:block lg:w-2/3">{product.description}</p>
                   <div className='hidden md:inline'>
