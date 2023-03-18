@@ -78,6 +78,10 @@ const Farms = () => {
     // },
   ]
 
+  // const construct = products.filter(product  =>
+  //   product.id === '2'
+  // );
+
   return (
     <>
       <Nav />

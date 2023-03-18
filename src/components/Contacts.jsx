@@ -121,7 +121,7 @@ const Contacts = () => {
                   </h4>
                   <p className="text-xs text-gray-500 lg:text-sm">
                     Call our services at: <br />
-                    +91 9496516291, +91 9645546443
+                    +91 9496516291, +91 9645203644
                   </p>
                 </div>
               </div>
