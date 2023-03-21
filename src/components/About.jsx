@@ -14,9 +14,9 @@ import '../App.css'
 
 const About = () => {
 
-
-
-componentDidMount=()=> {window.scrollTo(0, 0)}
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   
 
   const images = [
