@@ -89,17 +89,17 @@ const Farms = () => {
         {products.map((product, index) => (
           <div className="text-black hover:scale-105 ">
             <div className="grid grid-cols-12 mx-4 my-6 overflow-hidden bg-green-100 border-2 rounded-lg border-cyan-50 h-[28em] md:h-[18em] hover:bg-gradient-to-tr from-[#70cf7d] to-[#caf880]">
-              <div className="justify-center col-start-5 col-span-full lg:col-span-4 md:inline">
-                <img src={product.picture} alt="" className="rounded-full md:right-10 right-0 md:h-[35vh] mt-9 md:mt-5 md:max-lg:h-[20vh] md:max-lg:right-0 md:w-[40vw] w-[36vw] h-[17vh] opacity-100 scale-125 md:scale-75 sm:left-0 sm:top-0" />
+              <div className="justify-center col-start-4 col-span-full lg:col-span-4 md:inline">
+                <img src={product.picture} alt="" className="rounded-full md:right-10 md:h-[35vh] mt-9 ml-3 md:mt-5 md:max-lg:h-[20vh] md:max-lg:right-0 md:w-[40vw] w-[36vw] h-[17vh] opacity-100 scale-125 md:scale-75 sm:left-0 sm:top-0" />
               </div>
-              <div className="p-6 col-span-full  lg:col-span-8 lg:p-10 ">
-                <div className='flex flex-col'>
+              <div className="p-6 col-span-full lg:col-span-8 lg:p-10 ">
+                <div className='flex flex-col items-center'>
                   {/* <div className="justify-start hidden md:inline ">
                     <span className="py-1 text-lg rounded-full dark:bg-violet-400 dark:text-gray-900">{product.badge}</span>
                   </div> */}
                   <h1 className="text-3xl font-semibold md:inline">{product.name}</h1>
                   <p className="font-bold text-lg text-green-500 md:block lg:w-2/3">{product.crop}</p>
-                  <p className="font-semibold text-lg text-gray-500 md:block lg:w-2/3">{product.description}</p>
+                  <p className="font-semibold text-lg text-center text-gray-500 md:block lg:w-2/3">{product.description}</p>
                   <div className='md:inline'>
                   <Modal1 /></div>
                   <div className="items-center justify-between pt-2 mt-2 md:inline">
