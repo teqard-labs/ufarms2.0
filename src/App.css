@@ -47,4 +47,8 @@
   right: 3% !important;
   z-index: 1;
  
+}@media screen and (min-width: 350px) and (max-width: 640px){
+  .car{
+    height: 31vh;
+  }
 }

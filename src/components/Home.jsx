@@ -8,6 +8,7 @@ import HowItWorks from './HowItWorks';
 import c1 from '../assets/c1.jpg'
 import c2 from '../assets/c2.jpg'
 import c3 from '../assets/c3.jpg'
+import '../App.css'
 
 const Home = () => {
 
@@ -21,7 +22,7 @@ const Home = () => {
             <img
               src={c1}
               alt="..."
-              className='min-h-[60%]'
+              className='car'
             />
           </div>
 
@@ -29,6 +30,7 @@ const Home = () => {
             <img
               src={c2}
               alt="..."
+              className='car'
             />
 
           </div>
@@ -37,6 +39,7 @@ const Home = () => {
             <img
               src={c3}
               alt="..."
+              className='car w-full'
             />
 
           </div>
@@ -45,6 +48,7 @@ const Home = () => {
             <img
               src={c2}
               alt="..."
+              className='car'
             />
 
           </div>
@@ -53,7 +57,7 @@ const Home = () => {
             <img
               src={c1}
               alt="..."
-              className='min-h-[60%]'
+              className='car'
             />
 
           </div>
