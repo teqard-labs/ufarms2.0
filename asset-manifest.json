@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ufarms2.0/static/css/main.cf908262.css",
-    "main.js": "/ufarms2.0/static/js/main.2d750b53.js",
+    "main.css": "/ufarms2.0/static/css/main.b7175ac0.css",
+    "main.js": "/ufarms2.0/static/js/main.96c9fa19.js",
     "static/js/27.80bd493d.chunk.js": "/ufarms2.0/static/js/27.80bd493d.chunk.js",
     "static/media/6.jpg": "/ufarms2.0/static/media/6.e108978137a4ef1f8cbe.jpg",
     "static/media/c2.jpg": "/ufarms2.0/static/media/c2.f9afbc1cc3886623c30f.jpg",
@@ -10,8 +10,7 @@
     "static/media/4.jpg": "/ufarms2.0/static/media/4.fbff8d09970a1f6c7f1e.jpg",
     "static/media/about1.jpg": "/ufarms2.0/static/media/about1.04cf9c0ab792a28fdeba.jpg",
     "static/media/c1.jpg": "/ufarms2.0/static/media/c1.0fdec4708cd3ae7fa1b3.jpg",
-    "static/media/2.jpg": "/ufarms2.0/static/media/2.154967470a533e74d054.jpg",
-    "static/media/1.jpeg": "/ufarms2.0/static/media/1.8ea94268d1aba2f95f1e.jpeg",
+    "static/media/2.jpg": "/ufarms2.0/static/media/2.7c912a816a4d211cba30.jpg",
     "static/media/c5.jpg": "/ufarms2.0/static/media/c5.18a39971341210e832de.jpg",
     "static/media/7.jpg": "/ufarms2.0/static/media/7.ac2b59e83b09b09d2f8e.jpg",
     "static/media/3.jpg": "/ufarms2.0/static/media/3.93f0d93b0da63240ab2a.jpg",
@@ -37,7 +36,7 @@
     "index.html": "/ufarms2.0/index.html"
   },
   "entrypoints": [
-    "static/css/main.cf908262.css",
-    "static/js/main.2d750b53.js"
+    "static/css/main.b7175ac0.css",
+    "static/js/main.96c9fa19.js"
   ]
 }
