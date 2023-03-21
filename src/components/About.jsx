@@ -15,7 +15,10 @@ import '../App.css'
 const About = () => {
 
 
-   
+
+componentDidMount=()=> {window.scrollTo(0, 0)}
+  
+
   const images = [
     {
       name: "Customizable",
@@ -40,6 +43,8 @@ const About = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,  
+    nextArrow: <NArrow/>,
+    prevArrow: <PArrow/>,
     responsive: [
       { breakpoint: 600, settings: { slidesToShow: 1 } },
       { breakpoint: 1024, settings: { slidesToShow: 2 } },
@@ -58,8 +63,28 @@ const About = () => {
   };
 
 
-
-
+  
+  function NArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "green" }}
+        onClick={onClick}
+      />
+    );
+  }
+  
+  function PArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block", background: "green" }}
+        onClick={onClick}
+      />
+    );
+  }
 
     return (
       <div className='bg-gray-100'>

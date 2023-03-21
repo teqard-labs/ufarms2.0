@@ -10,13 +10,13 @@ const Features8 = () => {
   return (
   <div>
     <Navbar/>
-    <div className="w-full px-3 py-16 mx-auto max-w-7xl bg-white-50">
+    <div className="w-full px-3 md:py-16 mx-auto max-w-7xl bg-white-50">
       {/* CONTAINER */}
       <div className="flex flex-col items-start w-full max-w-6xl mx-auto space-y-10 lg:flex-row md:space-y-0">
 
 
         {/* :TITLE CONTAINER */}
-        <div className="relative flex flex-col justify-start pb-52 flex-shrink-0 w-auto h-full text-center sm:px-4 md:text-left">
+        <div className="relative flex flex-col justify-start md:pb-52 flex-shrink-0 w-auto h-full text-center sm:px-4 md:text-left">
 
           {/*Illustration*/}
           <img src={c1}  alt="Loading..... " classname=" -top-10 "/>
@@ -29,13 +29,7 @@ const Features8 = () => {
           
           {/* ::Text */}
           <p className="max-w-sm mx-auto text-sm leading-7 text-gray-600 md:mx-0 sm:text-base">These are the services that we are providing to our customers.</p>
-          
-          
-
         </div>
-
-
-
         {/* :FEATURES CONTAINER */}
         <dl className="flex flex-col justify-center w-auto max-w-xl mx-auto sm:px-4 md:flex-row">
 
@@ -81,7 +75,7 @@ const Features8 = () => {
           </div>
 
           {/* ::Features container 2 */}
-          <div className="relative flex flex-col h-full px-3 mt-4 space-y-4 md:bottom-10 sm:mt-0 md:w-1/2 sm:flex-row md:flex-col sm:space-y-0 md:space-y-8">
+          <div className="relative flex flex-col h-full px-3 my-4 space-y-4 md:bottom-10 sm:mt-0 md:w-1/2 sm:flex-row md:flex-col sm:space-y-0 md:space-y-8">
             
             {/* :::feature 3 -> Creative Ideas */}
             <div className="flex flex-col items-center justify-center w-full max-w-xs px-5 mx-auto space-y-3 bg-white border border-gray-100 hover:scale-110 shadow-md py-7 sm:items-start">

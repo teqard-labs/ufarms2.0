@@ -2,13 +2,13 @@ import Logo from '../assets/logo.jpg'
 import React, { useState, useEffect } from 'react'
 import NavItem from './dependables/NavItem'
 import Burger from './dependables/Burger'
-import { Outlet, Link, useLocation } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import { FaHome, FaInfo, FaShoppingCart, FaPhone, FaHandsHelping, FaTractor } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
   const [scrollPos, setScrollPos] = useState(0);
-  const location = useLocation();
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,13 +22,9 @@ const Navbar = () => {
     };
   }, []);
 
-  const isActive = (pathname) => {
-    return location.pathname === pathname ? 'text-green-600' : '';
-
-  };
 
   return (
-    <header className={`w-full mb-4 text-black bg-white body-font ${scrollPos > 0 ? "fixed top-0 left-0 z-50 shadow-lg" : ""}`}>
+    <header className={`w-full text-black bg-white body-font ${scrollPos > 0 ? "fixed top-0 left-0 z-50 shadow-lg" : ""}`}>
 
       {/* :DESKTOP MENU */}
       <div className="container relative flex items-center justify-between px-5 py-2 mx-auto md:justify-center sm:py-7">
@@ -36,20 +32,20 @@ const Navbar = () => {
         <Burger isOpen={isOpen} setIsOpen={setIsOpen} />
         {/* ::Navbar left part */}
         <nav className="flex-wrap items-center hidden text-base tracking-wide md:flex md:justify-start">
-          <Link to="/">
-            <NavItem className={`flex flex-col ${isActive('/')}`}>
+          <Link to="/" >
+            <NavItem className="flex flex-col ">
               <FaHome size={20} className='mt-1 ml-[0.7vw]' />
               Home
             </NavItem>
           </Link>
           <Link to="/about">
-            <NavItem className={`flex flex-col ${isActive('/about')}`}>
+            <NavItem className="flex flex-col">
               <FaInfo size={20} className='mt-1 ml-[0.7vw]' />
               About
             </NavItem>
           </Link>
           <Link to="/farms">
-            <NavItem className={`flex flex-col ${isActive('/farms')}`}>
+            <NavItem className="flex flex-col">
               <FaTractor size={20} className='mt-1 ml-[0.7vw]' />
               Farms
             </NavItem>
@@ -61,9 +57,9 @@ const Navbar = () => {
         </Link>
         {/* ::Navbar rigth part */}
         <nav className="flex-wrap items-center hidden text-base tracking-wide md:flex md:justify-start">
-        {/* <Link to="/products"><NavItem className={`flex flex-col ${isActive('/products')}`}><FaShoppingCart size={20} className='mt-1 ml-[1.2vw]' />Products</NavItem></Link> */}
-        <Link to="/services"><NavItem className={`flex flex-col ${isActive('/services')}`}><FaHandsHelping size={20} className='mt-1 ml-[1.2vw]' />Services</NavItem></Link>
-        <Link to="/contacts"> <NavItem className={`flex flex-col ${isActive('/contacts')}`}><FaPhone size={20} className='mt-1 ml-[1.2vw]' />Contact</NavItem></Link>
+        {/* <Link to="/products"><NavItem className="flex flex-col"><FaShoppingCart size={20} className='mt-1 ml-[1.2vw]' />Products</NavItem></Link> */}
+        <Link to="/services"><NavItem className="flex flex-col"><FaHandsHelping size={20} className='mt-1 ml-[1.2vw]' />Services</NavItem></Link>
+        <Link to="/contacts"> <NavItem className="flex flex-col "><FaPhone size={20} className='mt-1 ml-[1.2vw]' />Contact</NavItem></Link>
         </nav>
         <Outlet/>
       </div>

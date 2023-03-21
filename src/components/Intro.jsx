@@ -17,7 +17,7 @@ const Intro = () => {
                         {/* Content goes here */}
                         Ufarms is an agri-tech startup that uses IoT technology to help farmers optimize yields and reduce costs. Our smart farming solutions include real-time monitoring, automated irrigation, and predictive maintenance tools. We provide critical data to farmers from anywhere, at any time, so they can make informed decisions that drive growth and profitability. Join us to revolutionize agriculture and create a more sustainable future.
                         {/* ::Button */}
-                        <a href='/ufarms2.0#/about'>
+                        <a href='/about'>
                         <button type="button" className="mt-3 relative inline-flex items-center px-5 py-2.5 rounded border border-gray-700 bg-gradient-to-r from-[#caf880] to-[#70cf7d] text-base text-gray-700 font-semibold hover:from-[#028A0F] hover:to-[#028A0F] hover:text-white">
                             Know More
                         </button>
