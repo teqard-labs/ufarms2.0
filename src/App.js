@@ -8,6 +8,8 @@ import Contacts from './components/Contacts';
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Products from './components/Products';
 import Services from './components/Services';
+import Gallery from './components/Gallery';
+import ImageViewer from './components/ImageViewer';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path="carousel" element={<Carousel />} />
           <Route path="contacts" element={<Contacts/>}/>
           <Route path="services" element={<Services/>}/>
+          <Route path="gallery" element={<Gallery/>}/>
+          <Route path="/gallery/farm/:id" element={<ImageViewer/>} />
         </Route>
       </Routes>
     </HashRouter>

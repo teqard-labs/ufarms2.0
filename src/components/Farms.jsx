@@ -98,7 +98,7 @@ const Farms = () => {
                     <span className="py-1 text-lg rounded-full dark:bg-violet-400 dark:text-gray-900">{product.badge}</span>
                   </div> */}
                   <h1 className="text-3xl font-semibold md:inline">{product.name}</h1>
-                  <p className="font-bold text-lg text-green-500 md:block lg:w-2/3">{product.crop}</p>
+                  <p className="font-bold text-lg text-green-500 md:block">{product.crop}</p>
                   <p className="font-semibold text-lg text-center text-gray-500 md:block lg:w-2/3">{product.description}</p>
                   <div className='md:inline'>
                   <Modal1 /></div>
