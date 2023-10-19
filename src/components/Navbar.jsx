@@ -50,6 +50,12 @@ const Navbar = () => {
               Farms
             </NavItem>
           </Link>
+          <Link to="/gallery">
+            <NavItem className="flex flex-col">
+              <FaTractor size={20} className='mt-1 ml-[0.7vw]' />
+              Gallery
+            </NavItem>
+          </Link>
         </nav>
         {/* ::Site logo and Name */}
         <Link to="/" className="flex items-center justify-center flex-shrink-0 ml-4 sm:mr-12 md:mb-0">
