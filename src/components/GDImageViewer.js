@@ -19,7 +19,7 @@
     const GOOGLE_DRIVE_FILES_API = 'https://www.googleapis.com/drive/v2/files';
 
 
-    const GOOGLE_DRIVE_IMG_URL = "http://drive.google.com/uc?export=view&id=";
+    const GOOGLE_DRIVE_IMG_URL = "https://drive.google.com/uc?export=view&id=";
 
     const options = data.data.options;
     const header = data.data.header;
