@@ -1,7 +1,6 @@
 import './App.css';
 import About from './components/About';
 import Farms from './components/Farms';
-import Modal from './components/Modal';
 import Carousel from './components/Carousel';
 import Home from './components/Home';
 import Contacts from './components/Contacts';

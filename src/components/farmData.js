@@ -1,14 +1,24 @@
+import Location from "../assets/icons/location.png"
+import g1 from '../assets/farm/g1.jpg';
+import g2 from '../assets/farm/g2.jpg';
+import g3 from '../assets/farm/g3.jpg';
+import Avatar from '../assets/farm/4.jpg';
+import P1 from '../assets/farm/2.jpg'
+import P2 from '../assets/farm/4.jpg'
+
 const farms = [
     {
       id: 1,
-      name: "Azukiki TM",
-      authorImg: "https://fancytailwind.com/static/collection1-ape-297ccd7c7d1dc543e19482e0f9006df0.png",
+      name: "Farm 1",
+      authorImg: Avatar,
       certified: true,
-      totalValue: "$350,055",
+      icon: Location,
+      crop: "Crop: Palak",
+      description: "Kerala's First Fully Automated Hydroponic Farm",
+      picture: P1,
+      location: "Trivandrum, Karamana",
       previewImages: [
-        "https://fancytailwind.com/static/nft5-apemut-5956eaae6ce9239aecd71049f33c89a5.png",
-        "https://fancytailwind.com/static/nft5-apemut-5956eaae6ce9239aecd71049f33c89a5.png",
-        "https://fancytailwind.com/static/nft5-apemut-5956eaae6ce9239aecd71049f33c89a5.png",
+       g1,g2,g3
       ],
       data: {
         gkey: "AIzaSyANa9oTdVhLWSl8zPtKo0Qv6gHyecgZg0g",
@@ -28,15 +38,17 @@ const farms = [
     },
     {
       id: 2,
-      name: "Fake Ape Store",
-      authorImg: "https://fancytailwind.com/static/collection1-ape-297ccd7c7d1dc543e19482e0f9006df0.png",
+      name: "Farm 2",
+      authorImg: Avatar,
       certified: true,
-      totalValue: "$190,341",
+      icon: Location,
+      crop: "Crop: Not Available",
+      description: "---Under Construction---",
+      picture: P2,
+      location: "Trivandrum, Karamana",
       previewImages: [
-        "https://fancytailwind.com/static/nft5-apemut-5956eaae6ce9239aecd71049f33c89a5.png",
-        "https://fancytailwind.com/static/nft5-apemut-5956eaae6ce9239aecd71049f33c89a5.png",
-        "https://fancytailwind.com/static/nft5-apemut-5956eaae6ce9239aecd71049f33c89a5.png",
-      ],
+        g1,g2,g3
+       ],
       data: {
         gkey: "AIzaSyANa9oTdVhLWSl8zPtKo0Qv6gHyecgZg0g",
         dirId: "1GrFanvSUpnIIGjVykPi_mr9DM7qe0Oz1",
@@ -55,15 +67,14 @@ const farms = [
     },
     {
       id: 3,
-      name: "Cutties Club",
-      authorImg: "https://fancytailwind.com/static/collection1-ape-297ccd7c7d1dc543e19482e0f9006df0.png",
+      name: "Farm 3",
+      authorImg: Avatar,
       certified: true,
-      totalValue: "$1,889,677",
+      icon: Location,
+      location: "Trivandrum",
       previewImages: [
-        "https://fancytailwind.com/static/nft5-apemut-5956eaae6ce9239aecd71049f33c89a5.png",
-        "https://fancytailwind.com/static/nft5-apemut-5956eaae6ce9239aecd71049f33c89a5.png",
-        "https://fancytailwind.com/static/nft5-apemut-5956eaae6ce9239aecd71049f33c89a5.png",
-      ],
+        g1,g2,g3
+       ], 
       data: {
         gkey: "AIzaSyANa9oTdVhLWSl8zPtKo0Qv6gHyecgZg0g",
         dirId: "1GrFanvSUpnIIGjVykPi_mr9DM7qe0Oz1",

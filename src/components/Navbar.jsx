@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import NavItem from './dependables/NavItem'
 import Burger from './dependables/Burger'
 import { Outlet, Link } from "react-router-dom";
-import { FaHome, FaInfo, FaShoppingCart, FaPhone, FaHandsHelping, FaTractor } from 'react-icons/fa';
+import { FaHome, FaInfo, FaPhone, FaHandsHelping, FaTractor, FaImages } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -24,10 +24,10 @@ const Navbar = () => {
 
 
   return (
-    <header className={`w-full text-black bg-white body-font ${scrollPos > 0 ? "fixed top-0 left-0 z-50 shadow-lg" : ""}`}>
+    <header className={`w-full text-black bg-white body-font ${scrollPos > 0 ? "fixed top-0 left-0 md:h-[7vw] z-50 shadow-lg" : ""}`}>
 
       {/* :DESKTOP MENU */}
-      <div className="container relative flex items-center justify-between px-5 py-2 mx-auto md:justify-center sm:py-7">
+      <div className="container relative flex items-center justify-between px-5 py-2 mx-auto md:justify-center sm:pt-7">
         {/* ::Burger icon standard */}
         <Burger isOpen={isOpen} setIsOpen={setIsOpen} />
         {/* ::Navbar left part */}
@@ -59,8 +59,8 @@ const Navbar = () => {
         {/* ::Navbar rigth part */}
         <nav className="flex-wrap items-center hidden text-base tracking-wide md:flex md:justify-start">
           <Link to="/gallery">
-            <NavItem className="flex flex-col">
-              <FaTractor size={20} className='mt-1 ml-[0.7vw]' />
+            <NavItem className="flex flex-col pt-2">
+            <FaImages size={22} className='mt-1 ml-[1vw]' />
               Gallery
             </NavItem>
           </Link>
@@ -79,6 +79,8 @@ const Navbar = () => {
           <Link to="/farms" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Farms</Link>
           <Link to="/services" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Services</Link>
           <Link to="/contacts" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Contact</Link>
+          <Link to="/gallery" className="block px-3 py-2 text-black rounded-md hover:text-white hover:bg-[#028A0F]">Gallery</Link>
+
         </div>
       }
 

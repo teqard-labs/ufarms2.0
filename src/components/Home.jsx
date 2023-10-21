@@ -4,7 +4,6 @@ import Navbar from './Navbar';
 import Intro from './Intro';
 import Features from './Features';
 import Footer from './Footer';
-import HowItWorks from './HowItWorks';
 import c1 from '../assets/c1.jpg'
 import c2 from '../assets/c2.jpg'
 import c3 from '../assets/c3.jpg'
