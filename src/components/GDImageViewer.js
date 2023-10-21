@@ -1,6 +1,7 @@
   import React, { useEffect, useState } from "react";
   import * as R from 'ramda';
   import "./GDImageViewer.css";
+  
 
   function GDImageViewer(data) {
     const [imgIds, setImgIds] = useState([]);
