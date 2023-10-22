@@ -21,7 +21,7 @@ const farms = [
        g1,g2,g3
       ],
       data: {
-        gkey: "AIzaSyANa9oTdVhLWSl8zPtKo0Qv6gHyecgZg0g",
+        gkey: "AIzaSyAQYBNhN8petW-60Y_1shkIYJ1ARofsmss",
         dirId: "1GrFanvSUpnIIGjVykPi_mr9DM7qe0Oz1",
         name: "name1",
         options: {
@@ -50,7 +50,7 @@ const farms = [
         g1,g2,g3
        ],
       data: {
-        gkey: "AIzaSyANa9oTdVhLWSl8zPtKo0Qv6gHyecgZg0g",
+        gkey: "AIzaSyAQYBNhN8petW-60Y_1shkIYJ1ARofsmss",
         dirId: "1GrFanvSUpnIIGjVykPi_mr9DM7qe0Oz1",
         name: "name2",
         options: {
@@ -76,7 +76,7 @@ const farms = [
         g1,g2,g3
        ], 
       data: {
-        gkey: "AIzaSyANa9oTdVhLWSl8zPtKo0Qv6gHyecgZg0g",
+        gkey: "AAIzaSyAQYBNhN8petW-60Y_1shkIYJ1ARofsmss",
         dirId: "1GrFanvSUpnIIGjVykPi_mr9DM7qe0Oz1",
         name: "name3",
         options: {
