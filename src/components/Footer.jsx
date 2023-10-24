@@ -3,9 +3,9 @@ import React from 'react'
 import BackToTop from 'react-back-to-top-button'
 const Footer = () => {
   return (
-    <footer className="w-full px-4 py-5 bg-[#028A0F] "> {/* Container */}
+    <footer className="w-full flex flex-col-reverse px-4 py-5 bg-[#028A0F] "> {/* Container */}
       <h2 className="sr-only">Footer</h2>
-      <div className="flex flex-col-reverse sm:flex-row md:justify-between lg:justify-around">
+      <div className="flex md:max-lg:h-[35vw] lg:h-[25vw] xl:h-[20vw] flex-col-reverse sm:flex-row flex-shrink md:justify-between lg:justify-around">
 
         {/* :SITE NAME & SOCIAL NETWORKS */}
         <div className="relative flex flex-col items-center justify-center px-5 text-white mt-14 sm:mt-0">
@@ -16,21 +16,21 @@ const Footer = () => {
             {/* :::Social */}
             <span className="inline-flex justify-center w-full mt-6 md:justify-start md:w-auto">
               {/* Facebook */}
-              <a href="#link" className="text-white">
+              {/* <a href="#link" className="text-white">
                 <span className="sr-only">Facebook</span>
                 <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
                   <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                 </svg>
-              </a>
+              </a> */}
               {/* Twitter */}
-              <a href="#link" className="ml-3 text-white">
+              {/* <a href="#link" className="ml-3 text-white">
                 <span className="sr-only">Twitter</span>
                 <svg fill="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
                   <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                 </svg>
-              </a>
+              </a> */}
               {/* Instagram */}
-              <a href="https://www.instagram.com/ufarms.io/" className="ml-3 text-white">
+              <a href="https://instagram.com/ufarms.io?igshid=MzRlODBiNWFlZA==" className="ml-3 text-white">
                 <span className="sr-only">Instagram</span>
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-6 h-6" viewBox="0 0 24 24">
                   <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
@@ -38,7 +38,7 @@ const Footer = () => {
                 </svg>
               </a>
               {/* Linkedin */}
-              <a href="https://www.linkedin.com/company/ufarmsio/about/" className="ml-3 text-white">
+              <a href="https://www.linkedin.com/company/ufarmsio/" className="ml-3 text-white">
                 <span className="sr-only">Linkedin</span>
                 <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="0" className="w-6 h-6" viewBox="0 0 24 24">
                   <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
 
         {/* :NAVIGATION */}
-        <div className="grid grid-cols-2 gap-5 text-white">
+        <div className="grid grid-cols-2 md:grid-colds-3 md:grid-flow-col gap-5 text-white">
           {/* ::Navigation */}
       <BackToTop
         showOnScrollUp
@@ -71,7 +71,7 @@ const Footer = () => {
           <div className="flex flex-col items-center col-span-2 px-4 pb-0 md:col-span-1 md:py-3 sm:items-start">
             <h3 className="py-1.5 md:py-4 text-xl text-white font-bold tracking-wide">Address</h3>
             <p className="text-lg font-medium text-center md:w-48 sm:text-left md:text-xl">Marangadan Puthussery Bldg,Nayathode (CIAL City 130),</p>
-            <p className="text-lg font-medium text-center md:w-48 sm:text-left md:text-xl">Angamaly P.O, Ernakulam, Kerala, India, PIN : 683572</p>
+            <p className="text-lg font-medium text-center md:w-48 sm:text-left md:text-xl">Angamaly P.O, Ernakulam, Kerala, India, PIN 683572</p>
           </div>
           {/* ::Email */}
           <div className="flex flex-col items-center col-span-2 px-4 pb-0 md:col-span-1 md:py-3 sm:items-start">

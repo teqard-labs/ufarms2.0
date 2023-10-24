@@ -19,7 +19,7 @@ const Contacts = () => {
   function handleSubmit(event) {
     event.preventDefault();
     // Submit the form using Formspree
-    fetch("https://formspree.io/f/xwkjoazp", {
+    fetch("https://formspree.io/f/mjvqlyyy", {
       method: "POST",
       body: new FormData(event.target),
       headers: {
@@ -30,6 +30,7 @@ const Contacts = () => {
         if (response.ok) {
           toast.success("Your message has been sent!", { autoClose: 3000 });
           event.target.reset();
+          console.log("Message Sent");
         } else {
           throw new Error("There was an error sending your message.");
         }

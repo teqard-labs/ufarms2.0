@@ -21,8 +21,8 @@ const farms = [
        g1,g2,g3
       ],
       data: {
-        gkey: "AIzaSyAQYBNhN8petW-60Y_1shkIYJ1ARofsmss",
-        dirId: "1GrFanvSUpnIIGjVykPi_mr9DM7qe0Oz1",
+        gkey: "AIzaSyCtvBEjc56_o3d9_S-3gHjZSE4uum8Th7Q",
+        dirId: "1gA6YaqmdFxO1tH5DZiWpkpmDB6Sn6dIG",
         name: "name1",
         options: {
           style: {
@@ -50,8 +50,8 @@ const farms = [
         g1,g2,g3
        ],
       data: {
-        gkey: "AIzaSyAQYBNhN8petW-60Y_1shkIYJ1ARofsmss",
-        dirId: "1GrFanvSUpnIIGjVykPi_mr9DM7qe0Oz1",
+        gkey: "AIzaSyCtvBEjc56_o3d9_S-3gHjZSE4uum8Th7Q",
+        dirId: "1i3TyfujhEm3Bp8opZzfVT1gleIHY8Lj7",
         name: "name2",
         options: {
           style: {
@@ -76,9 +76,35 @@ const farms = [
         g1,g2,g3
        ], 
       data: {
-        gkey: "AAIzaSyAQYBNhN8petW-60Y_1shkIYJ1ARofsmss",
-        dirId: "1GrFanvSUpnIIGjVykPi_mr9DM7qe0Oz1",
+        gkey: "AIzaSyCtvBEjc56_o3d9_S-3gHjZSE4uum8Th7Q",
+        dirId: "1aWzjut5cWoOre3f5eN0VUdXgu7nHHIeS",
         name: "name3",
+        options: {
+          style: {
+            // Define your styles here
+          },
+          onClick: {
+            modal: true,       // Set to open images in a modal
+            newWindow: false,  // Set to open images in a new window
+          },
+          hover: true, // Enable hover effect
+        },
+      },
+    },
+    {
+      id: 4,
+      name: "Farm 4",
+      authorImg: Avatar,
+      certified: true,
+      icon: Location,
+      location: "United Kingdom",
+      previewImages: [
+        g1,g2,g3
+       ], 
+      data: {
+        gkey: "AIzaSyCtvBEjc56_o3d9_S-3gHjZSE4uum8Th7Q",
+        dirId: "13yvcrOgQVEQMHjs7cwTXM2q-Vt-u1NMl",
+        name: "name4",
         options: {
           style: {
             // Define your styles here

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import farms from './farmData';
 import Navbar from './Navbar';
 import "./GDImageViewer.css";
+import Footer from './Footer';
 
 
 function Gallery() {
@@ -51,6 +52,7 @@ function Gallery() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
