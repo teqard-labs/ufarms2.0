@@ -6,7 +6,6 @@ import Navbar from './Navbar';
 import farms from './farmData';
 import Back from '../assets/icons/barrow.png'
 import Loading from './Loading';
-import Footer from './Footer';
 
 
 function ImageViewer() {

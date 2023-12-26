@@ -9,6 +9,8 @@ import Products from './components/Products';
 import Services from './components/Services';
 import Gallery from './components/Gallery';
 import ImageViewer from './components/ImageViewer';
+import News from './components/News'
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
           <Route path="contacts" element={<Contacts/>}/>
           <Route path="services" element={<Services/>}/>
           <Route path="gallery" element={<Gallery/>}/>
+          <Route path="news" element={<News/>}/>
           <Route path="/gallery/farm/:id" element={<ImageViewer/>} />
         </Route>
       </Routes>

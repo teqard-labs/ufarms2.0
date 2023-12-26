@@ -69,14 +69,21 @@ const Footer = () => {
               
           {/* ::Address */}
           <div className="flex flex-col items-center col-span-2 px-4 pb-0 md:col-span-1 md:py-3 sm:items-start">
-            <h3 className="py-1.5 md:py-4 text-xl text-white font-bold tracking-wide">Address</h3>
-            <p className="text-lg font-medium text-center md:w-48 sm:text-left md:text-xl">Marangadan Puthussery Bldg,Nayathode (CIAL City 130),</p>
+            <h3 className="py-1.5 md:py-4 text-xl text-white font-bold tracking-wide">IN Address</h3>
+            <p className="text-lg font-bold text-center md:w-72 sm:text-left md:text-xl">Ufarms.io AgriTech Pvt Ltd.</p>
+            <p className="text-lg font-medium text-center md:w-72 sm:text-left md:text-xl">Marangadan Puthussery Bldg, Nayathode (CIAL City 130),</p>
             <p className="text-lg font-medium text-center md:w-48 sm:text-left md:text-xl">Angamaly P.O, Ernakulam, Kerala, India, PIN 683572</p>
+          </div>
+          <div className="flex flex-col items-center col-span-2 px-4 pb-0 md:col-span-1 md:py-3 sm:items-start">
+            <h3 className="py-1.5 md:py-4 text-xl text-white font-bold tracking-wide">UK Address</h3>
+            <p className="text-lg font-bold text-center md:w-52 sm:text-left md:text-xl">Ufarms.io Ltd.</p>
+            <p className="text-lg font-medium text-center md:w-52 sm:text-left md:text-xl">Clyde Offices 2nd Floor</p>
+            <p className="text-lg font-medium text-center md:w-52 sm:text-left md:text-xl">48 West George Street, Glasgow G2 1BP</p>
           </div>
           {/* ::Email */}
           <div className="flex flex-col items-center col-span-2 px-4 pb-0 md:col-span-1 md:py-3 sm:items-start">
             <h3 className="py-1.5 md:py-4 text-xl text-white font-bold tracking-wide">Email</h3>
-            <p className="inline-flex justify-center text-sm font-medium text-white sm:justify-start">
+            <p className="inline-flex justify-center text-base font-medium text-white sm:justify-start">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 mr-1" viewBox="0 0 20 20" fill="currentColor">
                 <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
