@@ -94,11 +94,17 @@ const Footer = () => {
           {/* ::Phone */}
           <div className="flex flex-col items-center col-span-2 px-4 pb-0 md:col-span-1 md:py-3 sm:items-start">
             <h3 className="py-1.5 md:py-4 text-xl text-white font-bold tracking-wide">Phone contact</h3>
-            <p className="inline-flex justify-center text-sm font-bold text-white sm:justify-start">
-              <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <p className="inline-flex justify-center text-base font-bold text-white sm:justify-start"> IN:
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 mr-1 ml-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              <span>+91 9496516291, +91 9645203644</span>
+              <span className='text-sm font-bold mt-1'>+91 9496516291, +91 9645203644</span>
+            </p>
+            <p className="inline-flex justify-center text-base font-bold text-white sm:justify-start"> UK:
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 mr-1 ml-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              <span className='text-sm font-bold mt-1'>+44 7447146002</span>
             </p>
           </div>
         </div>
