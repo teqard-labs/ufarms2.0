@@ -2,7 +2,7 @@
   "name": "ufarms2.0",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://teqard-labs.github.io/ufarms2.0",
+  "homepage": "https://teqard-labs.github.io",
   "dependencies": {
     "@formspree/react": "^2.4.1",
     "@headlessui/react": "^1.7.10",
