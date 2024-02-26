@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="w-full flex flex-col-reverse px-4 py-5 bg-[#028A0F] "> {/* Container */}
       <h2 className="sr-only">Footer</h2>
-      <div className="flex md:max-lg:h-[35vw] lg:h-[25vw] xl:h-[20vw] flex-col-reverse sm:flex-row flex-shrink md:justify-between lg:justify-around">
+      <div className="flex md:max-lg:h-[34vw] lg:h-[24vw] xl:h-[19vw] flex-col-reverse sm:flex-row flex-shrink md:justify-between lg:justify-around">
 
         {/* :SITE NAME & SOCIAL NETWORKS */}
         <div className="relative flex flex-col items-center justify-center px-5 text-white mt-14 sm:mt-0">
@@ -47,39 +47,63 @@ const Footer = () => {
               </a>
             </span>
             {/* :::Copyright */}
-            <span className="py-4 text-xs">&copy;2023, Ufarms.io All Rights Reserved.</span>
+            <span className="py-4 text-xs text-center">&copy;2023, Ufarms.io All Rights Reserved.</span>
           </div>
           {/* ::Mobile separator line */}
-          <span className="absolute w-1/4 h-px transform -translate-x-1/2 bg-white sm:hidden -top-4 left-1/2" aria-hidden="true"/>
+          <span className="absolute w-1/4 h-px transform -translate-x-1/2 bg-white sm:hidden -top-4 left-1/2" aria-hidden="true" />
         </div>
 
         {/* :NAVIGATION */}
-        <div className="grid grid-cols-2 md:grid-colds-3 md:grid-flow-col gap-5 text-white">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 text-white mx-auto max-w-7xl px-4">
           {/* ::Navigation */}
-      <BackToTop
-        showOnScrollUp
-        showAt={100}
-        speed={1500}
-        easing="easeOutSine"
-      >
-        <span className='flex text-base text-black'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mx-1 leading-3">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5" />
-</svg>Back To Top</span>
-      </BackToTop>
-              
+          <div className="col-span-1 md:col-span-2 lg:col-span-4">
+            <BackToTop
+              showOnScrollUp
+              showAt={100}
+              speed={1500}
+              easing="easeOutSine"
+            >
+              <span className="flex text-base text-black">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-6 h-6 mx-1 leading-3"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5"
+                  />
+                </svg>
+                Back To Top
+              </span>
+            </BackToTop>
+          </div>
+
           {/* ::Address */}
-          <div className="flex flex-col items-center col-span-2 px-4 pb-0 md:col-span-1 md:py-3 sm:items-start">
-            <h3 className="py-1.5 md:py-4 text-xl text-white font-bold tracking-wide">IN Address</h3>
-            <p className="text-lg font-bold text-center md:w-72 sm:text-left md:text-xl">Ufarms.io AgriTech Pvt Ltd.</p>
-            <p className="text-lg font-medium text-center md:w-72 sm:text-left md:text-xl">Marangadan Puthussery Bldg, Nayathode (CIAL City 130),</p>
-            <p className="text-lg font-medium text-center md:w-48 sm:text-left md:text-xl">Angamaly P.O, Ernakulam, Kerala, India, PIN 683572</p>
+          <div className="col-span-1">
+            <h3 className="py-1.5 md:py-4 text-xl text-white font-bold tracking-wide">
+              IN Address
+            </h3>
+            <p className="text-lg font-bold">Ufarms.io AgriTech Pvt Ltd.</p>
+            <p className="text-lg font-medium">
+              Marangadan Puthussery Bldg, Nayathode (CIAL City 130), Angamaly P.O,
+              Ernakulam, Kerala, India, PIN 683572
+            </p>
           </div>
-          <div className="flex flex-col items-center col-span-2 px-4 pb-0 md:col-span-1 md:py-3 sm:items-start">
-            <h3 className="py-1.5 md:py-4 text-xl text-white font-bold tracking-wide">UK Address</h3>
-            <p className="text-lg font-bold text-center md:w-52 sm:text-left md:text-xl">Ufarms.io Ltd.</p>
-            <p className="text-lg font-medium text-center md:w-52 sm:text-left md:text-xl">Clyde Offices 2nd Floor</p>
-            <p className="text-lg font-medium text-center md:w-52 sm:text-left md:text-xl">48 West George Street, Glasgow G2 1BP</p>
+
+          <div className="col-span-1">
+            <h3 className="py-1.5 md:py-4 text-xl text-white font-bold tracking-wide">
+              UK Address
+            </h3>
+            <p className="text-lg font-bold">Ufarms.io Ltd.</p>
+            <p className="text-lg font-medium">Clyde Offices 2nd Floor</p>
+            <p className="text-lg font-medium">48 West George Street, Glasgow G2 1BP</p>
           </div>
+
           {/* ::Email */}
           <div className="flex flex-col items-center col-span-2 px-4 pb-0 md:col-span-1 md:py-3 sm:items-start">
             <h3 className="py-1.5 md:py-4 text-xl text-white font-bold tracking-wide">Email</h3>
@@ -91,10 +115,13 @@ const Footer = () => {
               <a href="#email">hello@ufarms.io</a>
             </p>
           </div>
+
           {/* ::Phone */}
-          <div className="flex flex-col items-center col-span-2 px-4 pb-0 md:col-span-1 md:py-3 sm:items-start">
-            <h3 className="py-1.5 md:py-4 text-xl text-white font-bold tracking-wide">Phone contact</h3>
-            <p className="inline-flex justify-center text-base font-bold text-white sm:justify-start"> IN:
+          <div className="col-span-1">
+            <h3 className="py-1.5 md:py-4 text-xl text-white font-bold tracking-wide">
+              Phone contact
+            </h3>
+           <p className="inline-flex justify-center text-base font-bold text-white sm:justify-start"> IN:
               <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 mr-1 ml-2 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
@@ -108,6 +135,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
+
 
       </div>
     </footer>
