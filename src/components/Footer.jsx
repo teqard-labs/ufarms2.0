@@ -95,7 +95,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="col-span-1">
+          <div className="col-span-2 max-md:ml-5">
             <h3 className="py-1.5 md:py-4 text-xl text-white font-bold tracking-wide">
               UK Address
             </h3>
@@ -117,7 +117,7 @@ const Footer = () => {
           </div>
 
           {/* ::Phone */}
-          <div className="col-span-1">
+          <div className="col-span-2 max-md:ml-5">
             <h3 className="py-1.5 md:py-4 text-xl text-white font-bold tracking-wide">
               Phone contact
             </h3>
