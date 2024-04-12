@@ -2,25 +2,35 @@ import React from 'react';
 import axios from 'axios';
 
 const DownloadButton = ({ fileUrl, fileName }) => {
-  const handleDownload = async () => {
-    try {
-      const response = await axios({
-        url: fileUrl,
-        method: 'GET',
-        responseType: 'blob', // Important
-      });
+  // const handleDownload = async () => {
+  //   try {
+  //     const response = await axios({
+  //       url: fileUrl,
+  //       method: 'GET',
+  //       responseType: 'blob', // Important
+  //     });
 
-      // Create a temporary anchor element to trigger the download
-      const url = window.URL.createObjectURL(new Blob([response.data]));
-      const link = document.createElement('a');
-      link.href = url;
-      link.setAttribute('download', fileName);
-      document.body.appendChild(link);
-      link.click();
-      link.parentNode.removeChild(link);
-    } catch (error) {
-      console.error('Error downloading file: ', error);
-    }
+  //     // Create a temporary anchor element to trigger the download
+  //     const url = window.URL.createObjectURL(new Blob([response.data]));
+  //     const link = document.createElement('a');
+  //     link.href = url;
+  //     link.setAttribute('download', fileName);
+  //     document.body.appendChild(link);
+  //     link.click();
+  //     link.parentNode.removeChild(link);
+  //   } catch (error) {
+  //     console.error('Error downloading file: ', error);
+  //   }
+  // };
+
+  const handleDownload = () => {
+    // Create a temporary anchor element to trigger the download
+    const link = document.createElement('a');
+    link.href = fileUrl;
+    link.setAttribute('download', fileName);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (

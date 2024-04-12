@@ -12,6 +12,8 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.8",
     "cors-anywhere": "^0.4.4",
+    "debug": "^4.3.4",
+    "finalhandler": "^1.2.0",
     "flowbite": "^1.6.3",
     "flowbite-react": "^0.3.8",
     "newsapi": "^2.4.1",
@@ -56,6 +58,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "eslint-config-react-app": "^7.0.1",
     "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "react-gdrive-image-viewer": "github:masesk/react-gdrive-image-viewer",
