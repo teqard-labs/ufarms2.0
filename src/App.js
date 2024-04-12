@@ -10,6 +10,7 @@ import Services from './components/Services';
 import Gallery from './components/Gallery';
 import ImageViewer from './components/ImageViewer';
 import News from './components/News'
+import Download from './components/Download';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="services" element={<Services/>}/>
           <Route path="gallery" element={<Gallery/>}/>
           <Route path="news" element={<News/>}/>
+          <Route path="download" element={<Download/>}/>
           <Route path="/gallery/farm/:id" element={<ImageViewer/>} />
         </Route>
       </Routes>

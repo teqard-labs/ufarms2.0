@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import NavItem from './dependables/NavItem'
 import Burger from './dependables/Burger'
 import { Outlet, Link } from "react-router-dom";
-import { FaHome, FaInfo, FaPhone, FaHandsHelping, FaTractor, FaImages } from 'react-icons/fa';
+import { FaHome, FaInfo, FaPhone, FaHandsHelping, FaTractor, FaImages, FaDownload } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -50,6 +50,12 @@ const Navbar = () => {
               Farms
             </NavItem>
           </Link>
+          <Link to="/gallery">
+            <NavItem className="flex flex-col pt-2">
+            <FaImages size={22} className='mt-1 ml-[1vw]' />
+              Gallery
+            </NavItem>
+          </Link>
 
         </nav>
         {/* ::Site logo and Name */}
@@ -58,16 +64,17 @@ const Navbar = () => {
         </Link>
         {/* ::Navbar rigth part */}
         <nav className="flex-wrap items-center hidden text-base tracking-wide md:flex md:justify-start">
-          <Link to="/gallery">
-            <NavItem className="flex flex-col pt-2">
-            <FaImages size={22} className='mt-1 ml-[1vw]' />
-              Gallery
-            </NavItem>
-          </Link>
+          
           <Link to="/news">
             <NavItem className="flex flex-col pt-2">
-            <FaImages size={22} className='mt-1 ml-[1vw]' />
+            <FaImages size={22} className='mt-1 ml-[0.8vw]' />
               News
+            </NavItem>
+          </Link>
+          <Link to="/download" >
+            <NavItem className="flex flex-col ">
+              <FaDownload size={20} className='mt-1 ml-[2vw]' />
+              Download
             </NavItem>
           </Link>
           {/* <Link to="/products"><NavItem className="flex flex-col"><FaShoppingCart size={20} className='mt-1 ml-[1.2vw]' />Products</NavItem></Link> */}
