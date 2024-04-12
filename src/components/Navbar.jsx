@@ -27,7 +27,7 @@ const Navbar = () => {
     <header className={`w-full text-black bg-white body-font ${scrollPos > 0 ? "fixed top-0 left-0 md:h-[7vw] z-50 shadow-lg" : ""}`}>
 
       {/* :DESKTOP MENU */}
-      <div className="container relative flex items-center justify-between py-2 mx-auto md:justify-center sm:pt-7">
+      <div className="container relative flex items-center justify-between px-5 py-2 mx-auto md:justify-center sm:pt-7">
         {/* ::Burger icon standard */}
         <Burger isOpen={isOpen} setIsOpen={setIsOpen} />
         {/* ::Navbar left part */}
