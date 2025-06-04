@@ -111,7 +111,7 @@ const Contacts = () => {
                     href="mailto:#"
                     className="text-xs text-gray-500 lg:text-sm hover:text-gray-700"
                   >
-                    hello@ufarms.io
+                    info@ufarms.io
                   </a>
                 </div>
                 {/* ::::phone contact */}
